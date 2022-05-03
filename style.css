@@ -177,7 +177,6 @@ body {
     position: relative;
     margin-left: 24px;
     transition: 600ms 60ms ease;
-    transform: scale(0.8);
 }
 
 .container-example .cards:nth-child(1) img {
@@ -229,7 +228,6 @@ body {
     height: 360px;
     /* margin: 18vh calc(140px + 0px); */
     margin: calc((96vh / 2) - 180px) min(calc(140px + 0px), calc(50vw - (700px / 2)));
-    transform: scale(0.8);
 }
 #container-level-1 .cards:nth-child(2) img {
     box-shadow: none;
@@ -245,7 +243,6 @@ body {
     height: 530px;
     /* margin: 8vh calc(140px + 85px); */
     margin: calc((96vh / 2) - (530px / 2)) min(calc(140px + 85px), calc(50vw - ((700px - 170px) / 2)));
-    transform: scale(0.8);
 }
 #container-level-2 .cards:nth-child(5) img {
     box-shadow: none;
@@ -262,7 +259,6 @@ body {
     margin: calc((96vh / 2) - (580px / 2)) min(calc(140px + 60px), calc(50vw - ((700px - 120px) / 2)));
     border-radius: 50%;
     overflow: hidden;
-    transform: scale(0.8);
 }
 #container-level-3 .cards, #container-level-3 .cards img {
     width: 140px;
@@ -287,7 +283,6 @@ body {
     width: calc(700px - 200px);
     height: 620px;
     margin: calc((96vh / 2) - (620px / 2)) min(calc(140px + 100px), calc(50vw - ((700px - 200px) / 2)));
-    transform: scale(0.8);
 }
 #container-level-4 .cards, #container-level-4 .cards img {
     width: 120px;
@@ -299,7 +294,7 @@ body {
     width: calc(700px - 200px);
     height: 500px;
     margin: calc((96vh / 2) - (500px / 2)) min(calc(140px + 100px), calc(50vw - ((700px - 200px) / 2)));
-    transform: rotate(45deg) scale(0.8);
+    transform: rotate(45deg) scale(0.9);
 }
 #container-level-5 .cards, #container-level-5 .cards img {
     width: 120px;
