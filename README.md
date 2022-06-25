@@ -4,4 +4,4 @@ Foi feito durante o início dos meus estudos de desenvolvimento web e por isso e
 A minha intenção era conhecer e ter mais domínio das ferramentas básicas de desenvolvimento web, e por isso ele foi feito usando CSS puro, esse era o meu desafio.
 Tanto quanto a mecânica do jogo quanto o sistema de níveis foram feitos apenas com CSS, não há nenhuma linguagem de programação em todo o projeto.
 
-Demonstração: https://refusado.github.io/scrollzz/
+Demonstração: https://refusado.github.io/Scrollzz/
