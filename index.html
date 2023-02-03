@@ -1,12 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Scrollz - v2</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scrollz - v2</title>
 </head>
+
 <body>
-    Esta é a página onde está sendo trabalhada a versão 2.0.0 do Scrollzz
+
+  <header id="menu-selection">
+    <ul id="menu-selection__container">
+      <li class="menu-selection__btn selection-btn" id="menu-seletion--home">home</li>
+      <li class="menu-selection__btn selection-btn" id="menu-seletion--about">about</li>
+    </ul>
+  </header>
+
+  <body>
+    <aside id="level-selection">
+      <ul id="level-selection__container">
+        <li class="level-selection__btn selection-btn" id="level-selection--one">1</li>
+        <li class="level-selection__btn selection-btn" id="level-selection--two">2</li>
+        <li class="level-selection__btn selection-btn" id="level-selection--three">3</li>
+        <li class="level-selection__btn selection-btn" id="level-selection--four">4</li>
+        <li class="level-selection__btn selection-btn" id="level-selection--five">5</li>
+        <li class="level-selection__btn selection-btn" id="level-selection--six">6</li>
+      </ul>
+    </aside>
+
+    <main id="content">
+
+      <div id="menu">
+        <ul id="menu__container">
+          <h1>Scrollzz</h1>
+
+          <li id="menu--home">
+            <h2>How to play</h2>
+
+            <div class="level__block-containers" id="level--home__block-container">
+              <div class="level__block level--home__block" id="level--one__block--one"></div>
+              <div class="level__block level--home__block" id="level--one__block--two"></div>
+              <div class="level__block level--home__block" id="level--one__block--three"></div>
+              <div class="level__block level--home__block" id="level--one__block--four"></div>
+            </div>
+          </li>
+
+          <li id="menu--about">
+            <h2>About the game</h2>
+
+            [Informations comes here...]
+          </li>
+
+        </ul>
+      </div>
+
+      <div id="level">
+        <ul id="level__container">
+
+          <li class="level__block-containers" id="level--one__block-container">
+            <div class="level__block level--one__block" id="level--one__block--one"></div>
+            <div class="level__block level--one__block" id="level--one__block--two"></div>
+            <div class="level__block level--one__block" id="level--one__block--three"></div>
+            <div class="level__block level--one__block" id="level--one__block--four"></div>
+          </li>
+          
+          <li class="level__block-containers" id="level--two__block-container">
+            <div class="level__block level--two__block" id="level--two__block--one"></div>
+            <div class="level__block level--two__block" id="level--two__block--two"></div>
+            <div class="level__block level--two__block" id="level--two__block--three"></div>
+            <div class="level__block level--two__block" id="level--two__block--four"></div>
+          </li>
+
+        </ul>
+      </div>
+    </main>
+
+  </body>
 </body>
+
 </html>
