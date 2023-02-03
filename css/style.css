@@ -13,3 +13,14 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+.select-language {
+  display: none;
+}
+
+.language-selector {
+  display: inline-block;
+  padding: 8px;
+  border: 1px solid;
+  cursor: pointer;
+}

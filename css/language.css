@@ -1,0 +1,59 @@
+#language__en:checked ~ #container {
+  --home: "Home";
+  --home-subtitle: "How to play";
+  --home-content: "Thats how to play: blá blá blá...";
+  
+  --about: "About";
+  --about-subtitle: "About the game";
+  --about-content: "This is the game: blá blá blá...";
+
+  --btn-en-color: black;
+  --btn-pt-color: white;
+}
+
+#language__pt:checked ~ #container {
+  --home: "Home";
+  --home-subtitle: "Como jogar";
+  --home-content: "É assim que se joga: blá blá blá...";
+  
+  --about: "Sobre";
+  --about-subtitle: "Sobre o jogo";
+  --about-content: "Esse é o jogo: blá blá blá...";
+
+  --btn-en-color: white;
+  --btn-pt-color: black;
+}
+
+#language--en {
+  background-color: var(--btn-en-color);
+  color: var(--btn-pt-color);
+}
+
+#language--pt {
+  background-color: var(--btn-pt-color);
+  color: var(--btn-en-color);
+}
+
+#menu--home__subtitle::before {
+  content: var(--home-subtitle);
+}
+
+#menu--home__content::before {
+  content: var(--home-content);
+}
+
+#menu--about__subtitle::before {
+  content: var(--about-subtitle);
+}
+
+#menu--about__content::before {
+  content: var(--about-content);
+}
+
+#menu-selection--home::before {
+  content: var(--home);
+}
+
+#menu-selection--about:before {
+  content: var(--about);
+}
