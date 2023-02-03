@@ -1,0 +1,18 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	box-sizing: border-box;
+	font-family: sans-serif;
+	font: inherit;
+	list-style: none;
+}
+
+nav {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}

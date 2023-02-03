@@ -6,35 +6,55 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Scrollz - v2</title>
+
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/selectors.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
-  <header id="menu-selection">
-    <ul id="menu-selection__container">
-      <li class="menu-selection__btn selection-btn" id="menu-seletion--home">home</li>
-      <li class="menu-selection__btn selection-btn" id="menu-seletion--about">about</li>
+  <header id="menu-selection" class="selection">
+    <ul id="menu-selection__container" class="selectors-container">
+      <li class="menu-selection__btn selection-btn" id="menu-selection--home">
+        <label class="selector" for="select__home">home</label>
+      </li>
+
+      <li class="menu-selection__btn selection-btn" id="menu-selection--about">
+        <label class="selector" for="select__about">about</label>
+      </li>
     </ul>
   </header>
 
   <body>
-    <aside id="level-selection">
-      <ul id="level-selection__container">
-        <li class="level-selection__btn selection-btn" id="level-selection--one">1</li>
-        <li class="level-selection__btn selection-btn" id="level-selection--two">2</li>
-        <li class="level-selection__btn selection-btn" id="level-selection--three">3</li>
-        <li class="level-selection__btn selection-btn" id="level-selection--four">4</li>
-        <li class="level-selection__btn selection-btn" id="level-selection--five">5</li>
+    <nav id="level-selection" class="selection">
+      <ul id="level-selection__container" class="selectors-container">
+        <li class="level-selection__btn selection-btn" id="level-selection--one">
+          <label class="selector" for="select__one">1</label>
+        </li>
+        <li class="level-selection__btn selection-btn" id="level-selection--two">
+          <label class="selector" for="select__two">2</label>
+        </li>
+        <li class="level-selection__btn selection-btn" id="level-selection--three">
+          <label class="selector" for="select__three">3</label>
+        </li>
+        <li class="level-selection__btn selection-btn" id="level-selection--four">
+          <label class="selector" for="select__four">4</label>
+        </li>
+        <li class="level-selection__btn selection-btn" id="level-selection--five">
+          <label class="selector" for="select__five">5</label>
+        </li>
       </ul>
-    </aside>
+    </nav>
 
     <main id="content">
 
       <div id="menu">
         <ul id="menu__container">
-          <h1>Scrollzz</h1>
 
+          <input type="radio" name="select-content" class="select-content" id="select__home">
           <li id="menu--home">
+            <h1>Scrollzz</h1>
             <h2>How to play</h2>
 
             [Informations comes here...]
@@ -47,6 +67,7 @@
             </div>
           </li>
 
+          <input type="radio" name="select-content" class="select-content" id="select__about">
           <li id="menu--about">
             <h2>About the game</h2>
 
@@ -59,6 +80,7 @@
       <div id="level">
         <ul id="level__container">
 
+          <input type="radio" name="select-content" class="select-content" id="select__one">
           <li class="level__block-containers" id="level--one__block-container">
             <div class="level__block level--one__block" id="level--one__block--1">#11</div>
             <div class="level__block level--one__block" id="level--one__block--2">#12</div>
@@ -70,6 +92,7 @@
             <div class="level__block level--one__block" id="level--one__block--8">#18</div>
           </li>
           
+          <input type="radio" name="select-content" class="select-content" id="select__two">
           <li class="level__block-containers" id="level--two__block-container">
             <div class="level__block level--two__block" id="level--two__block--1">#21</div>
             <div class="level__block level--two__block" id="level--two__block--2">#22</div>
@@ -82,6 +105,7 @@
             <div class="level__block level--two__block" id="level--two__block--9">#29</div>
           </li>
           
+          <input type="radio" name="select-content" class="select-content" id="select__three">
           <li class="level__block-containers" id="level--three__block-container">
             <div class="level__block level--three__block" id="level--three__block--1">#31</div>
             <div class="level__block level--three__block" id="level--three__block--2">#32</div>
@@ -101,6 +125,7 @@
             <div class="level__block level--three__block" id="level--three__block--16">#316</div>
           </li>
           
+          <input type="radio" name="select-content" class="select-content" id="select__four">
           <li class="level__block-containers" id="level--four__block-container">
             <div class="level__block level--four__block" id="level--four__block--1">#41</div>
             <div class="level__block level--four__block" id="level--four__block--2">#42</div>
@@ -124,6 +149,7 @@
             <div class="level__block level--four__block" id="level--four__block--20">#420</div>
           </li>
           
+          <input type="radio" name="select-content" class="select-content" id="select__five">
           <li class="level__block-containers" id="level--five__block-container">
             <div class="level__block level--five__block" id="level--five__block--1">#51</div>
             <div class="level__block level--five__block" id="level--five__block--2">#52</div>

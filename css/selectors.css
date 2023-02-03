@@ -1,0 +1,66 @@
+.select-content, .select-content + * {
+  display: none;
+}
+
+.select-content:checked + * {
+  display: block;
+}
+
+.selector {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  user-select: none;
+}
+
+.selection {
+  position: absolute;
+  width: 100vw;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+}
+
+.selectors-container {
+  width: min(100%, 720px);
+  height: 30px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+.selection-btn {
+  flex-grow: 1;
+  transition: 300ms;
+}
+
+.selection-btn:hover {
+  flex-grow: 1.15;
+}
+
+#menu-selection { 
+  top: 0;
+  left: 0;
+}
+
+#menu-selection--home {
+  background-color: black;
+  color: white;
+}
+
+#menu-selection--about {
+  background-color: white;
+  color: black;
+}
+
+#level-selection {
+  bottom: 0;
+  left: 0;
+}
+
+.level-selection__btn:nth-child(odd) {
+  background-color: red;
+}
