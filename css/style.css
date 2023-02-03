@@ -1,7 +1,12 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 #content {
   width: min(100%, 720px);
-  height: 100vh;
-
+  height: calc(100% - 60px);
   margin: 0 auto;
   display: flex;
   flex-flow: column nowrap;
