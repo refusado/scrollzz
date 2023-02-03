@@ -16,6 +16,9 @@ nav {
 body {
 	line-height: 1;
   overscroll-behavior: contain;
+}
+
+#container {
   position: absolute;
   top: 0;
   bottom: 0;

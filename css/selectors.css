@@ -62,5 +62,6 @@
 }
 
 .level-selection__btn:nth-child(odd) {
-  background-color: red;
+  background-color: black;
+  color: white;
 }
