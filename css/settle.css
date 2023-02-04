@@ -1,20 +1,20 @@
 * {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	box-sizing: border-box;
-	font: inherit;
-	font-family: sans-serif;
-	list-style: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  box-sizing: border-box;
+  font: inherit;
+  font-family: sans-serif;
+  list-style: none;
 }
 
 nav {
-	display: block;
+  display: block;
 }
 
 body {
-	line-height: 1;
+  line-height: 1;
   overscroll-behavior: contain;
   background-color: var(--c-light);
 }
