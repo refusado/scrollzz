@@ -7,8 +7,8 @@
   --about-subtitle: "About the game";
   --about-content: "This is the game: blá blá blá...";
 
-  --btn-en-color: black;
-  --btn-pt-color: white;
+  --btn-en-color: var(--active-primary-color);
+  --btn-pt-color: var(--active-secondary-color);
 }
 
 #language__pt:checked ~ #container {
@@ -20,8 +20,8 @@
   --about-subtitle: "Sobre o jogo";
   --about-content: "Esse é o jogo: blá blá blá...";
 
-  --btn-en-color: white;
-  --btn-pt-color: black;
+  --btn-en-color: var(--active-secondary-color);
+  --btn-pt-color: var(--active-primary-color);
 }
 
 #language--en {

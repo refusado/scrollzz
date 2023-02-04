@@ -10,37 +10,37 @@
 
 #content__home:checked ~ #container {
   --state-content__home: block;
-  --container-bg-color: white;
+  --container-bg-color: var(--home-color);
 }
 
 #content__about:checked ~ #container {
   --state-content__about: block;
-  --container-bg-color: red;
+  --container-bg-color: var(--about-color);
 }
 
 #content__one:checked ~ #container {
   --state-content__one: block;
-  --container-bg-color: green;
+  --container-bg-color: var(--one-color);
 }
 
 #content__two:checked ~ #container {
   --state-content__two: block;
-  --container-bg-color: yellow;
+  --container-bg-color: var(--two-color);
 }
 
 #content__three:checked ~ #container {
   --state-content__three: block;
-  --container-bg-color: blue;
+  --container-bg-color: var(--three-color);
 }
 
 #content__four:checked ~ #container {
   --state-content__four: block;
-  --container-bg-color: purple;
+  --container-bg-color: var(--four-color);
 }
 
 #content__five:checked ~ #container {
   --state-content__five: block;
-  --container-bg-color: brown;
+  --container-bg-color: var(--five-color);
 }
 
 #container {

@@ -1,0 +1,32 @@
+:root {
+  --c-light: #fcfcfc;
+  --c-dark: #1b1b42;
+  --c-bege: #EFBC9B;
+  --c-green: #97d1b5;
+  --c-brown: #9b6e74;
+  --c-red: #dd5c66;
+  --c-purple: #9C89B8;
+
+  --home-color: var(--c-light);
+  --about-color: var(--c-light);
+  --one-color: var(--c-bege);
+  --two-color: var(--c-green);
+  --three-color: var(--c-brown);
+  --four-color: var(--c-red);
+  --five-color: var(--c-purple);
+
+  --active-primary-color: var(--c-dark);
+  --active-secondary-color: var(--c-light);
+}
+
+#menu-selection--home {
+  background-color: var(--home-color);
+}
+
+#menu-selection--about {
+  background-color: var(--about-color);
+}
+
+* {
+  color: var(--c-dark);
+}

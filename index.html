@@ -8,7 +8,9 @@
   <title>Scrollz - v2</title>
 
   <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/colors.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/pagination.css">
   <link rel="stylesheet" href="css/selectors.css">
   <link rel="stylesheet" href="css/language.css">
 </head>
@@ -17,7 +19,7 @@
   <input type="radio" name="language" class="select-language" id="language__en" hidden checked>
   <input type="radio" name="language" class="select-language" id="language__pt" hidden>
   
-  <input type="radio" name="select-content" class="select-content" id="content__home" hidden>
+  <input type="radio" name="select-content" class="select-content" id="content__home" hidden checked>
   <input type="radio" name="select-content" class="select-content" id="content__about" hidden>
   <input type="radio" name="select-content" class="select-content" id="content__one" hidden>
   <input type="radio" name="select-content" class="select-content" id="content__two" hidden>
@@ -41,20 +43,20 @@
       
       <nav id="level-selection" class="selection">
         <ul id="level-selection__container" class="selectors-container">
-          <li class="level-selection__btn selection-btn" id="level-selection--one">
-            <label class="content-selector" for="content__one">1</label>
+          <li class="level-selection__btn selection-btn">
+            <label class="content-selector" id="level-selection--one" for="content__one">1</label>
           </li>
-          <li class="level-selection__btn selection-btn" id="level-selection--two">
-            <label class="content-selector" for="content__two">2</label>
+          <li class="level-selection__btn selection-btn">
+            <label class="content-selector" id="level-selection--two" for="content__two">2</label>
           </li>
-          <li class="level-selection__btn selection-btn" id="level-selection--three">
-            <label class="content-selector" for="content__three">3</label>
+          <li class="level-selection__btn selection-btn">
+            <label class="content-selector" id="level-selection--three" for="content__three">3</label>
           </li>
-          <li class="level-selection__btn selection-btn" id="level-selection--four">
-            <label class="content-selector" for="content__four">4</label>
+          <li class="level-selection__btn selection-btn">
+            <label class="content-selector" id="level-selection--four" for="content__four">4</label>
           </li>
-          <li class="level-selection__btn selection-btn" id="level-selection--five">
-            <label class="content-selector" for="content__five">5</label>
+          <li class="level-selection__btn selection-btn">
+            <label class="content-selector" id="level-selection--five" for="content__five">5</label>
           </li>
         </ul>
       </nav>
