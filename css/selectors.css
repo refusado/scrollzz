@@ -1,10 +1,6 @@
-.select-content, .select-content + * {
-  display: none;
-}
 
-.select-content:checked + * {
-  display: block;
-}
+
+
 
 .content-selector {
   width: 100%;
