@@ -7,11 +7,11 @@
   --about-subtitle: "About the game";
   --about-content: "This is the game: blá blá blá...";
   
-  --btn-en-primary-color: var(--about-primary-color);
-  --btn-en-secondary-color: var(--about-secondary-color);
+  --btn-en-primary-color: var(--lang-primary-color);
+  --btn-en-secondary-color: var(--lang-secondary-color);
 
-  --btn-pt-primary-color: var(--about-primary-color);
-  --btn-pt-secondary-color: var(--about-secondary-color);
+  --btn-pt-primary-color: var(--lang-primary-color);
+  --btn-pt-secondary-color: var(--lang-secondary-color);
 }
 
 #language__en:checked ~ #container {
@@ -23,12 +23,12 @@
   --about-subtitle: "About the game";
   --about-content: "This is the game: blá blá blá...";
 
-  --btn-en-primary-color: var(--about-secondary-color);
-  --btn-en-secondary-color: var(--about-primary-color);
+  --btn-en-primary-color: var(--lang-secondary-color);
+  --btn-en-secondary-color: var(--lang-primary-color);
 }
 
 #language__pt:checked ~ #container {
-  --home: "Home";
+  --home: "Início";
   --home-subtitle: "Como jogar";
   --home-content: "É assim que se joga: blá blá blá...";
   
@@ -36,8 +36,8 @@
   --about-subtitle: "Sobre o jogo";
   --about-content: "Esse é o jogo: blá blá blá...";
 
-  --btn-pt-primary-color: var(--about-secondary-color);
-  --btn-pt-secondary-color: var(--about-primary-color);
+  --btn-pt-primary-color: var(--lang-secondary-color);
+  --btn-pt-secondary-color: var(--lang-primary-color);
 }
 
 #language--en {

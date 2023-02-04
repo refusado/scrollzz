@@ -21,6 +21,7 @@
   
   <input type="radio" name="select-content" class="select-content" id="content__home" hidden checked>
   <input type="radio" name="select-content" class="select-content" id="content__about" hidden>
+  <input type="radio" name="select-content" class="select-content" id="content__lang" hidden>
   <input type="radio" name="select-content" class="select-content" id="content__one" hidden>
   <input type="radio" name="select-content" class="select-content" id="content__two" hidden>
   <input type="radio" name="select-content" class="select-content" id="content__three" hidden>
@@ -31,10 +32,13 @@
     <header>
       <nav id="menu-selection" class="selection">
         <ul id="menu-selection__container" class="selectors-container">
-          <li class="menu-selection__btn selection-btn">
+          <li class="menu-selection__btn selection-btn" id="menu-selection__btn--home">
             <label class="content-selector menu-selector" id="menu-selection--home" for="content__home"></label>
           </li>
-          <li class="menu-selection__btn selection-btn">
+          <li class="menu-selection__btn selection-btn" id="menu-selection__btn--lang">
+            <label class="content-selector menu-selector" id="menu-selection--lang" for="content__lang">lang</label>
+          </li>
+          <li class="menu-selection__btn selection-btn" id="menu-selection__btn--about">
             <label class="content-selector menu-selector" id="menu-selection--about" for="content__about"></label>
           </li>
         </ul>
@@ -79,10 +83,10 @@
             </div>
           </li>
 
-          <li id="menu--about">
-            <h2 id="menu--about__subtitle" class="menu__subtitle"></h2>
+          <li id="menu--lang">
+            <h2 id="menu--lang__subtitle" class="menu__subtitle"></h2>
             
-            <p id="menu--about__content" class="menu__content"></p>
+            <p id="menu--lang__content" class="menu__content"></p>
 
             <div id="language">
               <div id="language__container">
@@ -90,6 +94,12 @@
                 <label class="language-selector" id="language--pt" for="language__pt">Português</label>
               </div>
             </div>
+          </li>
+
+          <li id="menu--about">
+            <h2 id="menu--about__subtitle" class="menu__subtitle"></h2>
+            
+            <p id="menu--about__content" class="menu__content"></p>
           </li>
 
         </ul>

@@ -1,5 +1,6 @@
 #container {
   --state-content__home: none;
+  --state-content__lang: none;
   --state-content__about: none;
   --state-content__one: none;
   --state-content__two: none;
@@ -11,6 +12,11 @@
 #content__home:checked ~ #container {
   --state-content__home: unset;
   --container-bg-color: var(--home-primary-color);
+}
+
+#content__lang:checked ~ #container {
+  --state-content__lang: unset;
+  --container-bg-color: var(--lang-primary-color);
 }
 
 #content__about:checked ~ #container {
@@ -50,6 +56,10 @@
 
 #menu--home {
   display: var(--state-content__home);
+}
+
+#menu--lang {
+  display: var(--state-content__lang);
 }
 
 #menu--about {

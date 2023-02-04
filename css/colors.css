@@ -1,6 +1,6 @@
 :root {
   --c-light: #f2f2f4;
-  --c-dark: #0d193a;
+  --c-dark: #102341;
   --c-bege: #EFBC9B;
   --c-green: #97d1b5;
   --c-brown: #9b6e74;
@@ -9,6 +9,9 @@
 
   --home-primary-color: var(--c-light);
   --home-secondary-color: var(--c-dark);
+
+  --lang-primary-color: var(--c-dark);
+  --lang-secondary-color: var(--c-light);
   
   --about-primary-color: var(--c-light);
   --about-secondary-color: var(--c-dark);
