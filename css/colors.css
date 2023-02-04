@@ -1,32 +1,30 @@
 :root {
-  --c-light: #fcfcfc;
-  --c-dark: #1b1b42;
+  --c-light: #f2f2f4;
+  --c-dark: #0d193a;
   --c-bege: #EFBC9B;
   --c-green: #97d1b5;
   --c-brown: #9b6e74;
   --c-red: #dd5c66;
   --c-purple: #9C89B8;
 
-  --home-color: var(--c-light);
-  --about-color: var(--c-light);
-  --one-color: var(--c-bege);
-  --two-color: var(--c-green);
-  --three-color: var(--c-brown);
-  --four-color: var(--c-red);
-  --five-color: var(--c-purple);
-
-  --active-primary-color: var(--c-dark);
-  --active-secondary-color: var(--c-light);
-}
-
-#menu-selection--home {
-  background-color: var(--home-color);
-}
-
-#menu-selection--about {
-  background-color: var(--about-color);
-}
-
-* {
-  color: var(--c-dark);
+  --home-primary-color: var(--c-light);
+  --home-secondary-color: var(--c-dark);
+  
+  --about-primary-color: var(--c-light);
+  --about-secondary-color: var(--c-dark);
+  
+  --one-primary-color: var(--c-bege);
+  --one-secondary-color: var(--c-dark);
+  
+  --two-primary-color: var(--c-green);
+  --two-secondary-color: var(--c-dark);
+  
+  --three-primary-color: var(--c-brown);
+  --three-secondary-color: var(--c-dark);
+  
+  --four-primary-color: var(--c-red);
+  --four-secondary-color: var(--c-dark);
+  
+  --five-primary-color: var(--c-purple);
+  --five-secondary-color: var(--c-dark);
 }

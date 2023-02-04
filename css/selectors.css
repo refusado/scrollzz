@@ -42,3 +42,38 @@
   bottom: 0;
   left: 0;
 }
+
+#menu-selection--home {
+  background-color: var(--home-primary-color);
+  color: var(--home-secondary-color);
+}
+
+#menu-selection--about {
+  background-color: var(--about-primary-color);
+  color: var(--about-secondary-color);
+}
+
+#level-selection--one {
+  background-color: var(--one-primary-color);
+  color: var(--one-secondary-color);
+}
+
+#level-selection--two {
+  background-color: var(--two-primary-color);
+  color: var(--two-secondary-color);
+}
+
+#level-selection--three {
+  background-color: var(--three-primary-color);
+  color: var(--three-secondary-color);
+}
+
+#level-selection--four {
+  background-color: var(--four-primary-color);
+  color: var(--four-secondary-color);
+}
+
+#level-selection--five {
+  background-color: var(--five-primary-color);
+  color: var(--five-secondary-color);
+}
