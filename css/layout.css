@@ -48,3 +48,7 @@
     transform: translateY(0);
   }
 }
+
+.menu-content__container {
+  flex-flow: column nowrap;
+}
