@@ -1,40 +1,48 @@
-#level {
-  --block-columns: 2;
+#content {
+  --block-size: 120px;
 }
 
 .block-containers {
   display: flex;
-  background-color: yellow;
   flex-flow: row wrap;
-}
-
-.block {
-  flex-grow: 1;
-  border: 1px solid red;
-  width: calc(100% / var(--block-columns));
-  height: calc(100% / var(--block-columns));
 }
 
 #level--home__block-container {
   --block-columns: 2;
+  --block-rows: 2;
 }
 
 #level--one__block-container {
   --block-columns: 4;
+  --block-rows: 2;
 }
 
 #level--two__block-container {
   --block-columns: 3;
+  --block-rows: 3;
 }
 
 #level--three__block-container {
   --block-columns: 4;
+  --block-rows: 4;
 }
 
 #level--four__block-container {
   --block-columns: 4;
+  --block-rows: 4;
 }
 
 #level--five__block-container {
   --block-columns: 4;
+  --block-rows: 5;
+}
+
+.block-containers {
+  width: calc(var(--block-size) * var(--block-columns));
+  height: calc(var(--block-size) * var(--block-rows));
+}
+
+.block {
+  outline: 1px solid yellow;
+  width: calc(100% / var(--block-columns));
 }

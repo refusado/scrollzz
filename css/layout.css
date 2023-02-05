@@ -31,7 +31,6 @@
 }
 
 .content__container {
-  border: 2px solid blue;
   animation: pop-content 700ms ease-out;
 }
 
