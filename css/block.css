@@ -38,8 +38,8 @@
 }
 
 .block-containers {
-  width: calc(var(--block-size) * var(--block-columns));
-  height: calc(var(--block-size) * var(--block-rows));
+  width: calc(min(var(--block-size) * var(--block-columns), 95vw, (95vh - 140px) / var(--block-rows) * var(--block-columns)));
+  height: calc(min(var(--block-size) * var(--block-rows), 95vw / var(--block-columns) * var(--block-rows), 95vh - 140px));
 }
 
 .block {
