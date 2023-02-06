@@ -13,11 +13,13 @@
 }
 
 #level--one__block-container {
+  --block-size: 140px;
   --block-columns: 4;
   --block-rows: 2;
 }
 
 #level--two__block-container {
+  --block-size: 140px;
   --block-columns: 3;
   --block-rows: 3;
 }
@@ -40,9 +42,13 @@
 .block-containers {
   width: calc(min(var(--block-size) * var(--block-columns), 95vw, (95vh - 140px) / var(--block-rows) * var(--block-columns)));
   height: calc(min(var(--block-size) * var(--block-rows), 95vw / var(--block-columns) * var(--block-rows), 95vh - 140px));
+
+  border-radius: 3px;
+  padding: 12px;
+  box-shadow: 0 10px 60px -25px #00000050, 0 2px 5px -2px #00000025;
 }
 
 .block {
-  outline: 1px solid yellow;
+  outline: 1px solid var(--c-dark);
   width: calc(100% / var(--block-columns));
 }
