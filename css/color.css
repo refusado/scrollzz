@@ -25,9 +25,9 @@
   --three-primary-color: var(--c-brown);
   --three-secondary-color: var(--c-dark);
   
-  --four-primary-color: var(--c-red);
+  --four-primary-color: var(--c-purple);
   --four-secondary-color: var(--c-dark);
   
-  --five-primary-color: var(--c-purple);
+  --five-primary-color: var(--c-red);
   --five-secondary-color: var(--c-dark);
 }

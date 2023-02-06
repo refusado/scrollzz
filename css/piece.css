@@ -1,0 +1,84 @@
+:root {
+  --star-1: url('../images/stars/star-piece-1.png');
+  --star-2: url('../images/stars/star-piece-2.png');
+  --star-3: url('../images/stars/star-piece-3.png');
+  --star-4: url('../images/stars/star-piece-4.png');
+  --star-5: url('../images/stars/star-off-piece-1.png');
+  --star-6: url('../images/stars/star-off-piece-2.png');
+  --star-7: url('../images/stars/star-off-piece-3.png');
+  --star-8: url('../images/stars/star-off-piece-4.png');
+
+  --polygon-1: url('../images/polygons/polygon-piece-1.png');
+  --polygon-2: url('../images/polygons/polygon-piece-2.png');
+  --polygon-3: url('../images/polygons/polygon-piece-3.png');
+  --polygon-4: url('../images/polygons/polygon-piece-4.png');
+  --polygon-5: url('../images/polygons/polygon-piece-5.png');
+  --polygon-6: url('../images/polygons/polygon-piece-6.png');
+  --polygon-7: url('../images/polygons/polygon-piece-7.png');
+  --polygon-8: url('../images/polygons/polygon-piece-8.png');
+  
+  --circle-1: url('../images/circles/circle-piece-1.png');
+  --circle-2: url('../images/circles/circle-piece-2.png');
+  --circle-3: url('../images/circles/circle-piece-3.png');
+  --circle-4: url('../images/circles/circle-piece-4.png');
+  --circle-5: url('../images/circles/circle-piece-5.png');
+  --circle-6: url('../images/circles/circle-piece-6.png');
+  --circle-7: url('../images/circles/circle-piece-7.png');
+  --circle-8: url('../images/circles/circle-piece-8.png');
+  --circle-9: url('../images/circles/circle-piece-9.png');
+  
+  --cube-1: url('../images/cubes/cube-piece-1.png');
+  --cube-2: url('../images/cubes/cube-piece-2.png');
+  --cube-3: url('../images/cubes/cube-piece-3.png');
+  --cube-4: url('../images/cubes/cube-piece-4.png');
+  --cube-5: url('../images/cubes/cube-piece-5.png');
+  --cube-6: url('../images/cubes/cube-piece-6.png');
+  --cube-7: url('../images/cubes/cube-piece-7.png');
+  --cube-8: url('../images/cubes/cube-piece-8.png');
+  --cube-9: url('../images/cubes/cube-piece-9.png');
+  --cube-10: url('../images/cubes/cube-piece-10.png');
+  --cube-11: url('../images/cubes/cube-piece-11.png');
+  --cube-12: url('../images/cubes/cube-piece-12.png');
+  --cube-13: url('../images/cubes/cube-piece-13.png');
+  --cube-14: url('../images/cubes/cube-piece-14.png');
+  --cube-15: url('../images/cubes/cube-piece-15.png');
+  --cube-16: url('../images/cubes/cube-piece-16.png');
+  
+  --moon-1: url('../images/moons/moon-piece-1.png');
+  --moon-2: url('../images/moons/moon-piece-2.png');
+  --moon-3: url('../images/moons/moon-piece-3.png');
+  --moon-4: url('../images/moons/moon-piece-4.png');
+  --moon-5: url('../images/moons/moon-piece-5.png');
+  --moon-6: url('../images/moons/moon-piece-6.png');
+  --moon-7: url('../images/moons/moon-piece-7.png');
+  --moon-8: url('../images/moons/moon-piece-8.png');
+  --moon-9: url('../images/moons/moon-piece-9.png');
+  --moon-10: url('../images/moons/moon-piece-10.png');
+  --moon-11: url('../images/moons/moon-piece-11.png');
+  --moon-12: url('../images/moons/moon-piece-12.png');
+  --moon-13: url('../images/moons/moon-piece-13.png');
+  --moon-14: url('../images/moons/moon-piece-14.png');
+  --moon-15: url('../images/moons/moon-piece-15.png');
+  --moon-16: url('../images/moons/moon-piece-16.png');
+
+  --triangle-1: url('../images/triangles/triangle-piece-1.png');
+  --triangle-2: url('../images/triangles/triangle-piece-2.png');
+  --triangle-3: url('../images/triangles/triangle-piece-3.png');
+  --triangle-4: url('../images/triangles/triangle-piece-4.png');
+  --triangle-5: url('../images/triangles/triangle-piece-5.png');
+  --triangle-6: url('../images/triangles/triangle-piece-6.png');
+  --triangle-7: url('../images/triangles/triangle-piece-7.png');
+  --triangle-8: url('../images/triangles/triangle-piece-8.png');
+  --triangle-9: url('../images/triangles/triangle-piece-9.png');
+  --triangle-10: url('../images/triangles/triangle-piece-10.png');
+  --triangle-11: url('../images/triangles/triangle-piece-11.png');
+  --triangle-12: url('../images/triangles/triangle-piece-12.png');
+  --triangle-13: url('../images/triangles/triangle-piece-13.png');
+  --triangle-14: url('../images/triangles/triangle-piece-14.png');
+  --triangle-15: url('../images/triangles/triangle-piece-15.png');
+  --triangle-16: url('../images/triangles/triangle-piece-16.png');
+  --triangle-17: url('../images/triangles/triangle-piece-17.png');
+  --triangle-18: url('../images/triangles/triangle-piece-18.png');
+  --triangle-19: url('../images/triangles/triangle-piece-19.png');
+  --triangle-20: url('../images/triangles/triangle-piece-20.png');
+}

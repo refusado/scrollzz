@@ -1,0 +1,31 @@
+#b11 .tile:nth-child(1) {
+  background-image: var(--polygon-1);
+}
+
+#b12 .tile:nth-child(1) {
+  background-image: var(--polygon-2);
+}
+
+#b13 .tile:nth-child(1) {
+  background-image: var(--polygon-3);
+}
+
+#b14 .tile:nth-child(1) {
+  background-image: var(--polygon-4);
+}
+
+#b15 .tile:nth-child(1) {
+  background-image: var(--polygon-5);
+}
+
+#b16 .tile:nth-child(1) {
+  background-image: var(--polygon-6);
+}
+
+#b17 .tile:nth-child(1) {
+  background-image: var(--polygon-7);
+}
+
+#b18 .tile:nth-child(1) {
+  background-image: var(--polygon-8);
+}
