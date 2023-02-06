@@ -2,7 +2,7 @@
   --block-size: 120px;
 }
 
-.block-containers {
+.block-container {
   display: flex;
   flex-flow: row wrap;
 }
@@ -39,16 +39,19 @@
   --block-rows: 5;
 }
 
-.block-containers {
-  width: calc(min(var(--block-size) * var(--block-columns), 95vw, (95vh - 140px) / var(--block-rows) * var(--block-columns)));
-  height: calc(min(var(--block-size) * var(--block-rows), 95vw / var(--block-columns) * var(--block-rows), 95vh - 140px));
+.block-container {
+  width: calc(min(var(--block-size) * var(--block-columns), 95vw, (95vh - var(--selectors-height) * 2) / var(--block-rows) * var(--block-columns)));
+  height: calc(min(var(--block-size) * var(--block-rows), 95vw / var(--block-columns) * var(--block-rows), 95vh - var(--selectors-height) * 2));
+}
 
-  border-radius: 3px;
-  padding: 12px;
-  box-shadow: 0 10px 60px -25px #00000050, 0 2px 5px -2px #00000025;
+/* LOWER MAXIMUM HEIGHT ON MOBILE DEVICES DUE TO THE BROWSER'S SEARCH BAR */
+@media (pointer: coarse)  {
+  .block-container {
+    width: calc(min(var(--block-size) * var(--block-columns), 95vw, (95vh - (var(--selectors-height) + 40px) * 2) / var(--block-rows) * var(--block-columns)));
+    height: calc(min(var(--block-size) * var(--block-rows), 95vw / var(--block-columns) * var(--block-rows), 95vh - (var(--selectors-height) + 40px) * 2));
+  }
 }
 
 .block {
-  outline: 1px solid var(--c-dark);
   width: calc(100% / var(--block-columns));
 }
