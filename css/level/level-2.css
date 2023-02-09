@@ -1,119 +1,113 @@
 /*
-372915468
-694578791
-965496857
-289782185
-847133923
-718324216
-136267672
-523851549
-451649334
+  Automatically generated file
+  Generator repository: 
 */
 
-#b21 .tile:nth-child(3),
-#b22 .tile:nth-child(7),
-#b23 .tile:nth-child(2),
-#b24 .tile:nth-child(9),
-#b25 .tile:nth-child(1),
-#b26 .tile:nth-child(5),
-#b27 .tile:nth-child(4),
-#b28 .tile:nth-child(6),
-#b29 .tile:nth-child(8) {
+#b21 .tile:nth-child(5),
+#b22 .tile:nth-child(9),
+#b23 .tile:nth-child(6),
+#b24 .tile:nth-child(8),
+#b25 .tile:nth-child(7),
+#b26 .tile:nth-child(4),
+#b27 .tile:nth-child(2),
+#b28 .tile:nth-child(1),
+#b29 .tile:nth-child(3) {
   background-image: var(--circle-1);
 }
 
-#b21 .tile:nth-child(6),
-#b22 .tile:nth-child(9),
-#b23 .tile:nth-child(4),
-#b24 .tile:nth-child(5),
-#b25 .tile:nth-child(7),
-#b26 .tile:nth-child(8),
+#b21 .tile:nth-child(4),
+#b22 .tile:nth-child(6),
+#b23 .tile:nth-child(2),
+#b24 .tile:nth-child(1),
+#b25 .tile:nth-child(9),
+#b26 .tile:nth-child(6),
 #b27 .tile:nth-child(7),
-#b28 .tile:nth-child(9),
-#b29 .tile:nth-child(1) {
+#b28 .tile:nth-child(8),
+#b29 .tile:nth-child(2) {
   background-image: var(--circle-2);
 }
 
-#b21 .tile:nth-child(9),
-#b22 .tile:nth-child(6),
-#b23 .tile:nth-child(5),
-#b24 .tile:nth-child(4),
-#b25 .tile:nth-child(9),
-#b26 .tile:nth-child(6),
+#b21 .tile:nth-child(6),
+#b22 .tile:nth-child(8),
+#b23 .tile:nth-child(4),
+#b24 .tile:nth-child(7),
+#b25 .tile:nth-child(8),
+#b26 .tile:nth-child(5),
 #b27 .tile:nth-child(8),
-#b28 .tile:nth-child(5),
+#b28 .tile:nth-child(3),
 #b29 .tile:nth-child(7) {
   background-image: var(--circle-3);
 }
 
-#b21 .tile:nth-child(2),
-#b22 .tile:nth-child(8),
-#b23 .tile:nth-child(9),
-#b24 .tile:nth-child(7),
-#b25 .tile:nth-child(8),
-#b26 .tile:nth-child(2),
+#b21 .tile:nth-child(7),
+#b22 .tile:nth-child(5),
+#b23 .tile:nth-child(7),
+#b24 .tile:nth-child(5),
+#b25 .tile:nth-child(1),
+#b26 .tile:nth-child(7),
 #b27 .tile:nth-child(1),
-#b28 .tile:nth-child(8),
+#b28 .tile:nth-child(4),
 #b29 .tile:nth-child(5) {
   background-image: var(--circle-4);
 }
 
 #b21 .tile:nth-child(8),
-#b22 .tile:nth-child(4),
-#b23 .tile:nth-child(7),
-#b24 .tile:nth-child(1),
-#b25 .tile:nth-child(3),
-#b26 .tile:nth-child(3),
-#b27 .tile:nth-child(9),
+#b22 .tile:nth-child(7),
+#b23 .tile:nth-child(8),
+#b24 .tile:nth-child(2),
+#b25 .tile:nth-child(5),
+#b26 .tile:nth-child(8),
+#b27 .tile:nth-child(4),
 #b28 .tile:nth-child(2),
-#b29 .tile:nth-child(3) {
+#b29 .tile:nth-child(9) {
   background-image: var(--circle-5);
 }
 
-#b21 .tile:nth-child(7),
-#b22 .tile:nth-child(1),
-#b23 .tile:nth-child(8),
-#b24 .tile:nth-child(3),
+#b21 .tile:nth-child(2),
+#b22 .tile:nth-child(4),
+#b23 .tile:nth-child(5),
+#b24 .tile:nth-child(6),
 #b25 .tile:nth-child(2),
-#b26 .tile:nth-child(4),
-#b27 .tile:nth-child(2),
-#b28 .tile:nth-child(1),
-#b29 .tile:nth-child(6) {
+#b26 .tile:nth-child(1),
+#b27 .tile:nth-child(3),
+#b28 .tile:nth-child(6),
+#b29 .tile:nth-child(4) {
   background-image: var(--circle-6);
 }
 
 #b21 .tile:nth-child(1),
-#b22 .tile:nth-child(3),
-#b23 .tile:nth-child(6),
-#b24 .tile:nth-child(2),
+#b22 .tile:nth-child(2),
+#b23 .tile:nth-child(9),
+#b24 .tile:nth-child(3),
 #b25 .tile:nth-child(6),
-#b26 .tile:nth-child(7),
+#b26 .tile:nth-child(2),
 #b27 .tile:nth-child(6),
-#b28 .tile:nth-child(7),
-#b29 .tile:nth-child(2) {
+#b28 .tile:nth-child(5),
+#b29 .tile:nth-child(6) {
   background-image: var(--circle-7);
 }
 
-#b21 .tile:nth-child(5),
-#b22 .tile:nth-child(2),
+#b21 .tile:nth-child(3),
+#b22 .tile:nth-child(3),
 #b23 .tile:nth-child(3),
-#b24 .tile:nth-child(8),
-#b25 .tile:nth-child(5),
-#b26 .tile:nth-child(1),
+#b24 .tile:nth-child(4),
+#b25 .tile:nth-child(4),
+#b26 .tile:nth-child(9),
 #b27 .tile:nth-child(5),
-#b28 .tile:nth-child(4),
-#b29 .tile:nth-child(9) {
+#b28 .tile:nth-child(7),
+#b29 .tile:nth-child(8) {
   background-image: var(--circle-8);
 }
 
-#b21 .tile:nth-child(4),
-#b22 .tile:nth-child(5),
+#b21 .tile:nth-child(9),
+#b22 .tile:nth-child(1),
 #b23 .tile:nth-child(1),
-#b24 .tile:nth-child(6),
-#b25 .tile:nth-child(4),
-#b26 .tile:nth-child(9),
-#b27 .tile:nth-child(3),
-#b28 .tile:nth-child(3),
-#b29 .tile:nth-child(4) {
+#b24 .tile:nth-child(9),
+#b25 .tile:nth-child(3),
+#b26 .tile:nth-child(3),
+#b27 .tile:nth-child(9),
+#b28 .tile:nth-child(9),
+#b29 .tile:nth-child(1) {
   background-image: var(--circle-9);
 }
+
