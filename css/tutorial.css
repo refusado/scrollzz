@@ -1,0 +1,57 @@
+#b01:hover .tile:nth-child(4) {
+  animation: highlight 1000ms infinite;
+}
+
+#b02:hover .tile:nth-child(3) {
+  animation: highlight 1000ms infinite;
+}
+
+@keyframes highlight {
+  0%, 100% {
+    box-shadow: inherit;
+  }
+  20% {
+    box-shadow: inset 0 0 2px 3px #43b2f8;
+  }
+}
+
+#b01 {
+  position: relative;
+}
+
+#scroll-icon {
+  background-image: radial-gradient(var(--c-dark) 35%, transparent 40%);
+  width: 32px;
+  height: 32px;
+  margin: 1ex;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1px;
+  outline: 1px solid var(--c-dark);
+}
+
+#scroll-icon::after {
+  content: '';
+  display: block;
+  width: 30%;
+  height: 30%;
+  border-radius: 100px;
+  background-color: #42d449;
+
+  animation: scroll 1200ms infinite ease;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translatey(85%);
+    opacity: 1;
+  }
+  40% {
+    opacity: 1;
+  }
+  100% {
+    transform: translatey(-85%);
+    opacity: 0;
+  }
+}

@@ -7,21 +7,30 @@
   --state-content__three: none;
   --state-content__four: none;
   --state-content__five: none;
+  
+  --state-content__chome: none;
+}
+
+#menu__container {
+  display: var(--state-content__chome);
 }
 
 #content__home:checked ~ #container {
   --state-content__home: flex;
   --container-bg-color: var(--home-primary-color);
+  --state-content__chome: flex;
 }
 
 #content__lang:checked ~ #container {
   --state-content__lang: flex;
   --container-bg-color: var(--lang-primary-color);
+  --state-content__chome: flex;
 }
 
 #content__about:checked ~ #container {
   --state-content__about: flex;
   --container-bg-color: var(--about-primary-color);
+  --state-content__chome: flex;
 }
 
 #content__one:checked ~ #container {

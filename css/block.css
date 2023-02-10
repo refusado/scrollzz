@@ -8,6 +8,7 @@
 }
 
 #level--home__block-container {
+  --block-size: 140px;
   --block-columns: 2;
   --block-rows: 2;
 }
@@ -47,11 +48,30 @@
 /* LOWER MAXIMUM HEIGHT ON MOBILE DEVICES DUE TO THE BROWSER'S SEARCH BAR */
 @media (pointer: coarse)  {
   .block-container {
-    width: calc(min(var(--block-size) * var(--block-columns), 95vw, (95vh - (var(--selectors-height) + 40px) * 2) / var(--block-rows) * var(--block-columns)));
-    height: calc(min(var(--block-size) * var(--block-rows), 95vw / var(--block-columns) * var(--block-rows), 95vh - (var(--selectors-height) + 40px) * 2));
+    width: calc(min(var(--block-size) * var(--block-columns), 95vw, (95vh - (var(--selectors-height) + 30px) * 2) / var(--block-rows) * var(--block-columns)));
+    height: calc(min(var(--block-size) * var(--block-rows), 95vw / var(--block-columns) * var(--block-rows), 95vh - (var(--selectors-height) + 30px) * 2));
   }
+}
+
+.block-container {
+  border-radius: 3px;
+  padding: min(13px, 2.5vw, 3vh);
+  box-shadow: 0 10px 60px -25px #00000050, 0 2px 5px -2px #00000025;
 }
 
 .block {
   width: calc(100% / var(--block-columns));
+  scrollbar-width: none;
+  scroll-behavior: smooth;
+  overflow: scroll;
+  scroll-snap-type: y mandatory;
+  outline: 1px solid var(--c-dark);
+}
+
+.tile {
+  scroll-snap-align: start;
+  width: 100%;
+  height: 100%;
+  background: no-repeat center;
+  background-size: cover;
 }
