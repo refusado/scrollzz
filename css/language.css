@@ -16,8 +16,8 @@
 
 #language__en:checked ~ #container {
   --home: "Home";
-  --home-subtitle: "How to play";
-  --home-content: "Thats how to play: blá blá blá...";
+  --home-subtitle: "The most practical puzzle on the web!";
+  --home-content: "It's simple to play: just scroll inside each block to find the right piece and build the picture with all blocks";
   
   --about: "About";
   --about-subtitle: "About the game";
@@ -29,8 +29,8 @@
 
 #language__pt:checked ~ #container {
   --home: "Início";
-  --home-subtitle: "Como jogar";
-  --home-content: "É assim que se joga: blá blá blá...";
+  --home-subtitle: "O puzzle mais prático da internet!";
+  --home-content: "Para jogar é simples: role dentro de cada bloco até encontrar a peça correta e tente formar a imagem com todos os blocos";
   
   --about: "Sobre";
   --about-subtitle: "Sobre o jogo";

@@ -19,16 +19,25 @@
   position: relative;
 }
 
+#level--home__block-container {
+  position: relative;
+  margin-top: calc(min(35px, 13vw) + min(20px, 2vh));
+}
+
 #scroll-icon {
-  background-image: radial-gradient(var(--c-dark) 35%, transparent 40%);
-  width: 32px;
-  height: 32px;
-  margin: 1ex;
+  background-image: radial-gradient(var(--c-dark) 35%, var(--c-light) 40%);
+  width: min(35px, 13vw);
+  height: min(35px, 13vw);
   display: inline-flex;
   justify-content: center;
   align-items: center;
   border-radius: 1px;
   outline: 1px solid var(--c-dark);
+  margin: min(13px, 1.5vw, 3vh);
+  position: absolute;
+  bottom: 100%;
+  right: 0;
+  box-shadow: 0 10px 80px -8px #000000EE, 0 2px 3px -2px #000000EE;
 }
 
 #scroll-icon::after {
@@ -37,8 +46,7 @@
   width: 30%;
   height: 30%;
   border-radius: 100px;
-  background-color: #42d449;
-
+  background-color: #43b2f8;
   animation: scroll 1200ms infinite ease;
 }
 
