@@ -21,24 +21,18 @@
 
 #level--home__block-container {
   margin-top: 1ex;
-  /* position: relative; */
-  /* margin-top: calc(min(35px, 13vw) + min(20px, 2vh)); */
 }
 
 #scroll-icon {
   background-image: radial-gradient(var(--c-dark) 35%, var(--c-light) 40%);
-  width: min(35px, 13vw);
-  height: min(35px, 13vw);
+  width: min(35px, 13vw, 6vh);
+  height: min(35px, 13vw, 6vh);
   display: inline-flex;
   justify-content: center;
   align-items: center;
   border-radius: 1px;
   outline: 1px solid var(--c-dark);
-  margin-left: 2ex;
-  /* margin: min(13px, 1.5vw, 3vh); */
-  /* position: absolute; */
-  /* bottom: 100%; */
-  /* right: 0; */
+  margin-left: min(2ex, 20vw);
   box-shadow: 0 10px 80px -8px #000000EE, 0 2px 3px -2px #000000EE;
 }
 
