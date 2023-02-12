@@ -71,7 +71,6 @@
 
 .block-container:hover .block {
   outline: 1px solid var(--c-dark);
-  /* border: 1px solid var(--c-dark); */
 }
 
 .tile {

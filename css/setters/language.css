@@ -45,23 +45,23 @@
 }
 
 /* INSERTING TRANSLATED CONTENT */
-#menu--home__subtitle::before {
+#home__subtitle::before {
   content: var(--home-subtitle);
 }
 
-#menu--home__content::before {
+#home__content::before {
   content: var(--home-content);
 }
 
-#menu--home__subcontent::before {
+#home__subcontent::before {
   content: var(--home-subcontent);
 }
 
-#menu--about__subtitle::before {
+#about__subtitle::before {
   content: var(--about-subtitle);
 }
 
-#menu--about__content::before {
+#about__content::before {
   content: var(--about-content);
 }
 

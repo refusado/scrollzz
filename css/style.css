@@ -1,5 +1,5 @@
 :root {
-  --container-width: 520px;
+  --container-width: min(100%, 520px);
   --selectors-height: min(30px, 5vh);
 }
 
@@ -19,7 +19,7 @@
 }
 
 .selectors-container {
-  width: min(100%, var(--container-width));
+  width: var(--container-width);
   height: var(--selectors-height);
   display: flex;
   flex-flow: row nowrap;
@@ -27,7 +27,7 @@
 }
 
 #content {
-  width: min(100%, var(--container-width));
+  width: var(--container-width);
   height: calc(100% - var(--selectors-height) * 2);
   margin: 0 auto;
   display: flex;
@@ -66,34 +66,4 @@
   flex-flow: column nowrap;
   justify-content: flex-start;
   align-items: center;
-}
-
-.menu__title {
-  font-size: 2.5rem;
-  margin: min(20px, 2vh) 0;
-  text-transform: uppercase;
-  transform: scaleY(0.7);
-  letter-spacing: -5px;
-}
-
-.menu__subtitle {
-  padding: 0 8px;
-  text-align: center;
-  margin-bottom: min(60px, 4vh);
-}
-
-#tutorial {
-  display: flex;
-  flex-flow: column nowrap;
-  align-items: center;
-}
-
-.menu__content {
-  text-align: center;
-  padding: 0 4px;
-  margin-bottom: min(40px, 4vh);
-}
-
-.menu__bottom {
-  margin: min(60px, 6vh) 0;
 }

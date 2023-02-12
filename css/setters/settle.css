@@ -27,3 +27,7 @@ body {
   bottom: 0;
   font-size: min(1.2rem, 6vh);
 }
+
+.select-content, .select-language {
+  display: none;
+}
