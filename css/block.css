@@ -65,7 +65,13 @@
   scroll-behavior: smooth;
   overflow: scroll;
   scroll-snap-type: y mandatory;
+  outline: 1px solid transparent;
+  transition: 800ms;
+}
+
+.block-container:hover .block {
   outline: 1px solid var(--c-dark);
+  /* border: 1px solid var(--c-dark); */
 }
 
 .tile {

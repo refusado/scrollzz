@@ -1,12 +1,4 @@
 #container {
-  --home: "Home";
-  --home-subtitle: "How to play";
-  --home-content: "Thats how to play: blá blá blá...";
-  
-  --about: "About";
-  --about-subtitle: "About the game";
-  --about-content: "This is the game: blá blá blá...";
-  
   --btn-en-primary-color: var(--lang-primary-color);
   --btn-en-secondary-color: var(--lang-secondary-color);
 
@@ -17,7 +9,8 @@
 #language__en:checked ~ #container {
   --home: "Home";
   --home-subtitle: "The most practical puzzle on the web!";
-  --home-content: "It's simple to play: just scroll inside each block to find the right piece and build the picture with all blocks";
+  --home-content: "Just scroll inside each block to find the right piece and build the picture with all blocks";
+  --home-subcontent: "Build the star";
   
   --about: "About";
   --about-subtitle: "About the game";
@@ -30,7 +23,8 @@
 #language__pt:checked ~ #container {
   --home: "Início";
   --home-subtitle: "O puzzle mais prático da internet!";
-  --home-content: "Para jogar é simples: role dentro de cada bloco até encontrar a peça correta e tente formar a imagem com todos os blocos";
+  --home-content: "Role dentro de cada bloco até encontrar a peça correta e tente formar a imagem com todos os blocos";
+  --home-subcontent: "Monte a estrela";
   
   --about: "Sobre";
   --about-subtitle: "Sobre o jogo";
@@ -57,6 +51,10 @@
 
 #menu--home__content::before {
   content: var(--home-content);
+}
+
+#menu--home__subcontent::before {
+  content: var(--home-subcontent);
 }
 
 #menu--about__subtitle::before {

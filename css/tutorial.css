@@ -20,8 +20,9 @@
 }
 
 #level--home__block-container {
-  position: relative;
-  margin-top: calc(min(35px, 13vw) + min(20px, 2vh));
+  margin-top: 1ex;
+  /* position: relative; */
+  /* margin-top: calc(min(35px, 13vw) + min(20px, 2vh)); */
 }
 
 #scroll-icon {
@@ -33,10 +34,11 @@
   align-items: center;
   border-radius: 1px;
   outline: 1px solid var(--c-dark);
-  margin: min(13px, 1.5vw, 3vh);
-  position: absolute;
-  bottom: 100%;
-  right: 0;
+  margin-left: 2ex;
+  /* margin: min(13px, 1.5vw, 3vh); */
+  /* position: absolute; */
+  /* bottom: 100%; */
+  /* right: 0; */
   box-shadow: 0 10px 80px -8px #000000EE, 0 2px 3px -2px #000000EE;
 }
 
