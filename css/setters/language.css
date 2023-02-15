@@ -7,10 +7,12 @@
 }
 
 #language__en:checked ~ #container {
+  --lang: "English";
+
   --home: "Home";
   --home-subtitle: "The most practical puzzle on the web!";
-  --home-content: "Just scroll to find the right piece to build the picture with all blocks";
-  --home-subcontent: "Try out!";
+  --home-description: "Just scroll to find the right piece to build the picture with all blocks";
+  --home-label: "Try out!";
   --home-bottom: "Thats all! Select the next level below when youre ready. Have fun ^^";
   
   --about: "About";
@@ -22,10 +24,12 @@
 }
 
 #language__pt:checked ~ #container {
+  --lang: "Português";
+
   --home: "Início";
   --home-subtitle: "O puzzle mais prático da internet!";
-  --home-content: "Apenas role até encontrar a peça correta para montar a imagem com todos os blocos";
-  --home-subcontent: "Experimente!";
+  --home-description: "Apenas role até encontrar a peça correta para montar a imagem com todos os blocos";
+  --home-label: "Experimente!";
   --home-bottom: "Isso é tudo! Slecione o próximo nível abaixo quando estiver pronto. Divirta-se ^^";
   
   --about: "Sobre";
@@ -52,11 +56,11 @@
 }
 
 #tutorial__description::before {
-  content: var(--home-content);
+  content: var(--home-description);
 }
 
 #tutorial__label::before {
-  content: var(--home-subcontent);
+  content: var(--home-label);
 }
 
 #tutorial__bottom::before {
@@ -73,6 +77,10 @@
 
 #menu-selection--home::before {
   content: var(--home);
+}
+
+#menu-selection--lang::before {
+  content: var(--lang);
 }
 
 #menu-selection--about:before {

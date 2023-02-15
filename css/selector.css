@@ -32,11 +32,11 @@
 }
 
 #menu-selection__btn--lang {
-  flex-grow: 1;
+  flex-grow: 1.15;
 }
 
 #menu-selection__btn--lang:hover {
-  flex-grow: 1.15;
+  flex-grow: 1.35;
 }
 
 

@@ -1,20 +1,20 @@
 #home__title {
-  font-size: min(2.5rem, 7vh);
-  margin: min(20px, 2vh) 0;
+  font-size: min(2.5rem, 7vh, 15vw);
+  margin: min(20px, 2vh, 5vw) 0;
   text-transform: uppercase;
   transform: scaleY(0.7);
-  letter-spacing: -5px;
+  letter-spacing: -0.3rem;
 }
 
 #home__subtitle {
-  font-size: min(1.2rem, 3vh);
+  font-size: min(1.2rem, 3vh, 6.2vw);
   padding: 0 8px;
   text-align: center;
-  margin-bottom: min(60px, 6vh);
+  margin-bottom: min(60px, 6vh, 10vw);
 }
 
 #tutorial {
-  font-size: min(1.2rem, 3vh);
+  font-size: min(1.2rem, 3vh, 6.2vw);
   flex-grow: 1;
   display: flex;
   flex-flow: column nowrap;
@@ -35,6 +35,6 @@
 
 #tutorial__bottom {
   text-align: center;
-  margin-top: min(70px, 7vh);
+  margin-top: min(70px, 7vh, 10vw);
   padding: 0 4px;
 }

@@ -25,7 +25,7 @@ body {
   top: 0;
   right: 0;
   bottom: 0;
-  font-size: min(1.2rem, 6vh);
+  font-size: min(1.2rem, 4vh, 8vw);
 }
 
 .select-content, .select-language {
