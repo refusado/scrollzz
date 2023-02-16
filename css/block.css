@@ -53,10 +53,22 @@
   }
 }
 
+#level--five__block-container:hover .block {
+  transition: 100ms;
+  opacity: 0;
+}
+
+#level--five__block-container .block:hover {
+  opacity: 1;
+}
+
+/* STYLES */
 .block-container {
   border-radius: 3px;
   padding: min(13px, 2.5vw, 2.5vh);
-  box-shadow: 0 10px 60px -25px #00000050, 0 2px 5px -2px #00000025;
+  box-shadow:
+  #00000015 0 0 4px,
+  #00000010 0 6px 20px 0;
 }
 
 .block {
@@ -65,12 +77,8 @@
   scroll-behavior: smooth;
   overflow: scroll;
   scroll-snap-type: y mandatory;
-  outline: 1px solid transparent;
-  transition: 800ms;
-}
-
-.block-container:hover .block {
   outline: 1px solid var(--c-dark);
+  transition: 800ms;
 }
 
 .tile {
