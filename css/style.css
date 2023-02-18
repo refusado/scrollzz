@@ -8,6 +8,7 @@
   justify-content: center;
   align-items: center;
   transition: 700ms;
+  overflow: hidden;
 }
 
 .language-selector {
@@ -37,22 +38,16 @@
 }
 
 .content__container {
-  animation: pop-content 700ms;
+  animation: fade-content 400ms;
+  backface-visibility: visible !important;
 }
 
-@keyframes pop-content {
+@keyframes fade-content {
   0% {
     opacity: 0;
-    transform: translateY(20px);
-  }
-  10% {
-    opacity: 1;
-  }
-  35% {
-    transform: translateY(-5px);
   }
   100% {
-    transform: translateY(0);
+    opacity: 1;
   }
 }
 
