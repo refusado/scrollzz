@@ -28,7 +28,8 @@
 
 #content__lang:checked ~ #container {
   --state-content__lang: flex;
-  --container-bg-color: var(--lang-primary-color);
+  /* LINEAR GRADIENT TO AVOID TRANSITIONS */
+  --container-bg-color: linear-gradient(var(--lang-primary-color), var(--lang-primary-color));
 }
 
 #content__about:checked ~ #container {
@@ -62,7 +63,7 @@
 }
 
 #container {
-  background-color: var(--container-bg-color);
+  background: var(--container-bg-color);
   color: var(--c-dark);
 }
 

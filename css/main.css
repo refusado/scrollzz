@@ -7,7 +7,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: 700ms;
+  transition: 600ms;
   overflow: hidden;
 }
 
@@ -37,20 +37,6 @@
   align-items: center;
 }
 
-.content__container {
-  animation: fade-content 400ms;
-  backface-visibility: visible !important;
-}
-
-@keyframes fade-content {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
 #menu__container, .menu-content__container {
   width: 100%;
   height: 100%;
@@ -61,4 +47,14 @@
   flex-flow: column nowrap;
   justify-content: flex-start;
   align-items: center;
+  animation: fade-content 400ms;
+}
+
+@keyframes fade-content {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
