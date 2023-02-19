@@ -31,3 +31,15 @@ body {
 .select-content, .select-language {
   display: none;
 }
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  #container {
+    display: none !important;
+  }
+
+  #not-supported-browser {
+    display: block;
+    padding: 20px;
+    text-align: center;
+  }
+}

@@ -62,6 +62,12 @@
   opacity: 1;
 }
 
+@media (pointer: coarse)  {
+  #level--five__block-container:hover .block {
+    opacity: 1;
+  }
+}
+
 /* STYLES */
 .block-container {
   border-radius: 3px;
@@ -80,6 +86,11 @@
   scroll-snap-type: y mandatory;
   outline: 1px solid var(--c-dark);
   transition: 800ms;
+}
+
+.block::-webkit-scrollbar {
+  width: 0;
+  height: 0;
 }
 
 .tile {
