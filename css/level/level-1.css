@@ -3,91 +3,91 @@
   Generator: https://github.com/refusado/scrollzz-generator
 */
 
-#b11 .tile:nth-child(4),
-#b12 .tile:nth-child(6),
-#b13 .tile:nth-child(5),
-#b14 .tile:nth-child(5),
-#b15 .tile:nth-child(6),
-#b16 .tile:nth-child(3),
-#b17 .tile:nth-child(7),
+#b11 .tile:nth-child(3),
+#b12 .tile:nth-child(8),
+#b13 .tile:nth-child(3),
+#b14 .tile:nth-child(6),
+#b15 .tile:nth-child(7),
+#b16 .tile:nth-child(7),
+#b17 .tile:nth-child(2),
 #b18 .tile:nth-child(1) {
   background-image: var(--polygon-1);
 }
 
-#b11 .tile:nth-child(3),
+#b11 .tile:nth-child(1),
 #b12 .tile:nth-child(7),
-#b13 .tile:nth-child(6),
-#b14 .tile:nth-child(1),
-#b15 .tile:nth-child(3),
+#b13 .tile:nth-child(2),
+#b14 .tile:nth-child(4),
+#b15 .tile:nth-child(5),
 #b16 .tile:nth-child(5),
-#b17 .tile:nth-child(5),
-#b18 .tile:nth-child(3) {
+#b17 .tile:nth-child(8),
+#b18 .tile:nth-child(7) {
   background-image: var(--polygon-2);
 }
 
 #b11 .tile:nth-child(5),
-#b12 .tile:nth-child(8),
-#b13 .tile:nth-child(2),
-#b14 .tile:nth-child(6),
-#b15 .tile:nth-child(2),
-#b16 .tile:nth-child(1),
-#b17 .tile:nth-child(4),
-#b18 .tile:nth-child(7) {
+#b12 .tile:nth-child(2),
+#b13 .tile:nth-child(8),
+#b14 .tile:nth-child(8),
+#b15 .tile:nth-child(3),
+#b16 .tile:nth-child(8),
+#b17 .tile:nth-child(1),
+#b18 .tile:nth-child(6) {
   background-image: var(--polygon-3);
 }
 
-#b11 .tile:nth-child(7),
-#b12 .tile:nth-child(5),
-#b13 .tile:nth-child(7),
-#b14 .tile:nth-child(2),
+#b11 .tile:nth-child(8),
+#b12 .tile:nth-child(6),
+#b13 .tile:nth-child(6),
+#b14 .tile:nth-child(3),
 #b15 .tile:nth-child(1),
-#b16 .tile:nth-child(6),
-#b17 .tile:nth-child(6),
-#b18 .tile:nth-child(4) {
+#b16 .tile:nth-child(4),
+#b17 .tile:nth-child(3),
+#b18 .tile:nth-child(2) {
   background-image: var(--polygon-4);
 }
 
 #b11 .tile:nth-child(6),
-#b12 .tile:nth-child(4),
-#b13 .tile:nth-child(1),
-#b14 .tile:nth-child(3),
-#b15 .tile:nth-child(4),
-#b16 .tile:nth-child(8),
-#b17 .tile:nth-child(3),
-#b18 .tile:nth-child(8) {
+#b12 .tile:nth-child(1),
+#b13 .tile:nth-child(7),
+#b14 .tile:nth-child(2),
+#b15 .tile:nth-child(8),
+#b16 .tile:nth-child(6),
+#b17 .tile:nth-child(4),
+#b18 .tile:nth-child(4) {
   background-image: var(--polygon-5);
 }
 
-#b11 .tile:nth-child(2),
-#b12 .tile:nth-child(1),
-#b13 .tile:nth-child(4),
-#b14 .tile:nth-child(4),
-#b15 .tile:nth-child(8),
-#b16 .tile:nth-child(4),
-#b17 .tile:nth-child(2),
-#b18 .tile:nth-child(6) {
+#b11 .tile:nth-child(7),
+#b12 .tile:nth-child(5),
+#b13 .tile:nth-child(1),
+#b14 .tile:nth-child(7),
+#b15 .tile:nth-child(6),
+#b16 .tile:nth-child(2),
+#b17 .tile:nth-child(6),
+#b18 .tile:nth-child(3) {
   background-image: var(--polygon-6);
 }
 
-#b11 .tile:nth-child(1),
-#b12 .tile:nth-child(3),
-#b13 .tile:nth-child(3),
-#b14 .tile:nth-child(7),
-#b15 .tile:nth-child(7),
-#b16 .tile:nth-child(7),
-#b17 .tile:nth-child(8),
-#b18 .tile:nth-child(2) {
+#b11 .tile:nth-child(2),
+#b12 .tile:nth-child(4),
+#b13 .tile:nth-child(4),
+#b14 .tile:nth-child(5),
+#b15 .tile:nth-child(2),
+#b16 .tile:nth-child(1),
+#b17 .tile:nth-child(5),
+#b18 .tile:nth-child(5) {
   background-image: var(--polygon-7);
 }
 
-#b11 .tile:nth-child(8),
-#b12 .tile:nth-child(2),
-#b13 .tile:nth-child(8),
-#b14 .tile:nth-child(8),
-#b15 .tile:nth-child(5),
-#b16 .tile:nth-child(2),
-#b17 .tile:nth-child(1),
-#b18 .tile:nth-child(5) {
+#b11 .tile:nth-child(4),
+#b12 .tile:nth-child(3),
+#b13 .tile:nth-child(5),
+#b14 .tile:nth-child(1),
+#b15 .tile:nth-child(4),
+#b16 .tile:nth-child(3),
+#b17 .tile:nth-child(7),
+#b18 .tile:nth-child(8) {
   background-image: var(--polygon-8);
 }
 
