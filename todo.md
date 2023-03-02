@@ -1,10 +1,11 @@
 # To do
 
 #### [crucial]
-- mudar o primeiro nível para proporção de blocos 3 por 2
-- mudar o terceiro nível para proporção de blocos 3 por 4
-- revisar e melhorar textos da home
 - adicionar informações no aba sobre (versão, repositório, desenvolvedor, acessos...)
+- mudar o nível 1 para proporção de blocos 3 por 2
+- mudar o nível 3 para proporção de blocos 3 por 4
+- refazer as peças do nível 1, 3 e 4
+- revisar e melhorar textos da home
 
 #### [secundário]
 - melhorar estrutura de textos no HTML
