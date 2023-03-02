@@ -10,6 +10,24 @@
   user-select: none;
 }
 
+#container {
+  --btn-en-primary-color: var(--lang-primary-color);
+  --btn-en-secondary-color: var(--lang-secondary-color);
+
+  --btn-pt-primary-color: var(--lang-primary-color);
+  --btn-pt-secondary-color: var(--lang-secondary-color);
+}
+
+#language__en:checked ~ #container {  
+  --btn-en-primary-color: var(--lang-secondary-color);
+  --btn-en-secondary-color: var(--lang-primary-color);
+}
+
+#language__pt:checked ~ #container {
+  --btn-pt-primary-color: var(--lang-secondary-color);
+  --btn-pt-secondary-color: var(--lang-primary-color);
+}
+
 #language--en {
   background-color: var(--btn-en-primary-color);
   color: var(--btn-en-secondary-color);

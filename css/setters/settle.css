@@ -32,6 +32,10 @@ body {
   display: none;
 }
 
+#version::before {
+  content: var(--version);
+}
+
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
   #container {
     display: none !important;
