@@ -1,0 +1,7 @@
+.menu__title {
+  font-size: min(2.5rem, 7vh, 15vw);
+  margin: min(20px, 2vh, 5vw) 0;
+  text-transform: uppercase;
+  transform: scaleY(0.7);
+  letter-spacing: -0.3rem;
+}

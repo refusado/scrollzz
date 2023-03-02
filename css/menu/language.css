@@ -1,0 +1,21 @@
+#lang__title {
+  color: var(--lang-secondary-color);
+}
+
+.language-selector {
+  display: inline-block;
+  padding: 8px;
+  border: 1px solid;
+  cursor: pointer;
+  user-select: none;
+}
+
+#language--en {
+  background-color: var(--btn-en-primary-color);
+  color: var(--btn-en-secondary-color);
+}
+
+#language--pt {
+  background-color: var(--btn-pt-primary-color);
+  color: var(--btn-pt-secondary-color);
+}
