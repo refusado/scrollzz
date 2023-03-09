@@ -1,12 +1,13 @@
 # To do
 
 #### [crucial]
-- adicionar informações no aba sobre (versão, repositório, desenvolvedor, acessos...)
+- adicionar informações na aba sobre (versão, repositório, desenvolvedor, acessos...)
+- refazer as peças do nível 1, 3 e 4
 - mudar o nível 1 para proporção de blocos 3 por 2
 - mudar o nível 3 para proporção de blocos 3 por 4
-- refazer as peças do nível 1, 3 e 4
 - revisar e melhorar textos da home
 - melhorar SEO
+- revisar suporte entre navegadores
 
 #### [secundário]
 - melhorar estrutura de textos no HTML
