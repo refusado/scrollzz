@@ -1,0 +1,30 @@
+#menu__about {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+}
+
+#about__title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+#about__subtitle, #about__content {
+  font-size: min(1.2rem, 3vh, 6.2vw);
+  padding: 0 8px;
+  margin-bottom: min(40px, 4vh, 6vw);
+}
+
+#about__footer {
+  font-size: min(.9rem, 2.5vh, 5.6vw);
+  padding: 10px;
+  line-height: 1.3rem;
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+#about__prj {
+  text-align: end;
+}

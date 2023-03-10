@@ -10,7 +10,6 @@
   --about: "About";
   --about-subtitle: "This puzzle was designed and developped in 2021, by Refu. The first version was released in 2022 and the second version in 2023. Focusing on simplicity, the gameplay is made only by the scrolling movement, dispensing even the use of clicks.";
   --about-content: "";
-  --about-github: "Github: ";
   --about-repo: "Repository: ";
   --about-version: "Version: ";
 }
@@ -25,9 +24,8 @@
   --home-bottom: "Isso é tudo! Slecione o próximo nível abaixo quando estiver pronto. Divirta-se ^^";
   
   --about: "Sobre";
-  --about-subtitle: "Este quebra-cabeças foi idealizado e desenvolvido em 2021, por Refu. Sua primeira versão foi lançada em 2022 e a segunda versão em 2023. Objetivando a simplicidade, a gameplay se dá apenas pelo movimento de rolamento (scroll), dispensando até mesmo o uso de clicks.";
-  --about-content: "";
-  --about-github: "Github: ";
+  --about-subtitle: "Objetivando a simplicidade, a gameplay de Scrollzz se dá apenas pelo movimento de rolamento (scroll), dispensando até mesmo o uso de clicks. Além da simples gameplay, o puzzle também tem o propósito de não usar tecnologias complexas, sendo desenvolvido apenas com as linguagens HTML e CSS, um desafio de desenvolvimento.";
+  --about-content: "Este quebra-cabeças foi idealizado e desenvolvido em 2021, sua primeira versão foi lançada em 2022 e a segunda versão em 2023. Se tiver o interesse em colaborar para próxima atualização, considere entrar em contato com o desenvolvedor para um feedback ou, se também for um desenvolvedor, sinta-se livre para fazer o seu pull-request no GitHub.";
   --about-repo: "Repositório: ";
   --about-version: "Versão: ";
 }
@@ -67,10 +65,6 @@
 
 #about__content::before {
   content: var(--about-content);
-}
-
-#about__github::before {
-  content: var(--about-github);
 }
 
 #about__repo::before {
