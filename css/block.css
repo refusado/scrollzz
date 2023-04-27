@@ -1,5 +1,6 @@
 #content {
-  --block-size: 120px;
+  --block-size: 140px;
+  --outline-color: var(--c-dark);
 }
 
 .block-container {
@@ -8,36 +9,37 @@
 }
 
 #level--home__block-container {
-  --block-size: 160px;
   --block-columns: 2;
   --block-rows: 2;
+  --block-size: 160px;
+  --outline-color: var(--home-secondary-color);
 }
 
 #level--one__block-container {
-  --block-size: 140px;
   --block-columns: 4;
   --block-rows: 2;
 }
 
 #level--two__block-container {
-  --block-size: 140px;
   --block-columns: 3;
   --block-rows: 3;
 }
 
 #level--three__block-container {
-  --block-columns: 4;
+  --block-columns: 3;
   --block-rows: 4;
 }
 
 #level--four__block-container {
   --block-columns: 4;
   --block-rows: 4;
+  --block-size: 120px;
 }
 
 #level--five__block-container {
   --block-columns: 4;
   --block-rows: 5;
+  --block-size: 120px;
 }
 
 .block-container {
@@ -84,7 +86,7 @@
   scroll-behavior: smooth;
   overflow: scroll;
   scroll-snap-type: y mandatory;
-  outline: 1px solid var(--c-dark);
+  outline: 1px solid var(--outline-color);
   transition: 800ms;
 }
 
