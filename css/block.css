@@ -72,6 +72,7 @@
 
 /* STYLES */
 .block-container {
+  box-sizing: content-box;
   border-radius: 3px;
   padding: min(13px, 2.5vw, 2.5vh);
   box-shadow:
