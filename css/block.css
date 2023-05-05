@@ -66,19 +66,22 @@
 
 @media (pointer: coarse)  {
   #level--five__block-container:hover .block {
-    opacity: 1;
+    opacity: unset;
   }
 }
 
 /* STYLES */
 .block-container {
-  box-sizing: content-box;
-  border-radius: 3px;
-  padding: min(13px, 2.5vw, 2.5vh);
-  box-shadow:
-  #00000015 0 0 4px,
-  #00000010 0 6px 20px 0;
+  border-radius: 6px;
+  overflow: hidden;
+  outline: 1px solid var(--outline-color);
   animation: container-flip 900ms;
+}
+
+@media (pointer: coarse) {
+  .block-container {
+    animation: none;
+  }
 }
 
 .block {
@@ -107,14 +110,12 @@
 @keyframes container-flip {
   0% {
     animation-timing-function: ease-in;
-    opacity: 0.8;
     transform:
       perspective(1000px)
       rotate3d(1, 0, 0, calc(110deg / (var(--block-rows) * 1.2)));
   }
   40% {
     animation-timing-function: ease-in;
-    opacity: 1;
     transform:
       perspective(1000px)
       rotate3d(1, 0, 0, calc(-16deg / (var(--block-rows) * 1.2)));

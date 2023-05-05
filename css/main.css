@@ -50,3 +50,14 @@
     opacity: 1;
   }
 }
+
+/* DISABLE UNECESSARY TRANSITION AND ANIMATION FOR MOBILE CLIENTS */
+@media (pointer: coarse)  {
+  #container {
+    transition: none;
+  }
+
+  .menu-content__container {
+    animation: none;
+  }
+}
