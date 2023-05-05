@@ -2,10 +2,10 @@
   --lang: "en";
 
   --home: "Home";
-  --home-subtitle: "The most practical puzzle on the web!";
-  --home-description: "Just scroll to find the right piece to build the picture with all blocks";
-  --home-label: "Try it!";
-  --home-bottom: "Thats all! Select the next level below when youre ready. Have fun ^^";
+  /* --home-subtitle: "The most practical puzzle on the web!"; */
+  --home-description: "Use the scroll to find the correct piece in each block and assemble the final image.";
+  /* --home-label: "Try it!"; */
+  --home-bottom: "No level nanny here, you're all grown up and can pick on your own the next level below when you're ready ;)";
   
   --about: "About";
   --about-subtitle: "This puzzle was designed and developped in 2021, by Refu. The first version was released in 2022 and the second version in 2023. Focusing on simplicity, the gameplay is made only by the scrolling movement, dispensing even the use of clicks.";
@@ -18,10 +18,10 @@
   --lang: "pt";
 
   --home: "Início";
-  --home-subtitle: "O puzzle mais prático da internet!";
-  --home-description: "Apenas role até encontrar a peça correta para montar a imagem com todos os blocos";
-  --home-label: "Experimente!";
-  --home-bottom: "Isso é tudo! Slecione o próximo nível abaixo quando estiver pronto. Divirta-se ^^";
+  /* --home-subtitle: "O puzzle mais prático da internet!"; */
+  --home-description: "Use o scroll para encontrar a peça correta em cada bloco e montar a imagem final.";
+  /* --home-label: "Experimente!"; */
+  --home-bottom: "Não sou eu quem escolhe seu nível, você já é adulto! Selecione o próximo nível abaixo quando estiver pronto ;)";
   
   --about: "Sobre";
   --about-subtitle: "Objetivando a simplicidade, a gameplay de Scrollzz se dá apenas pelo movimento de rolamento (scroll), dispensando até mesmo o uso de clicks. Além da simples gameplay, o puzzle também tem o propósito de não usar tecnologias complexas, sendo desenvolvido apenas com as linguagens HTML e CSS, um desafio de desenvolvimento.";
