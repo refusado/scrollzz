@@ -8,7 +8,7 @@
 - selecionar idioma ao iniciar jogo
 - melhorar SEO
 - revisar suporte entre navegadores
-- adicionar links do desenvolvedor
+- ~~adicionar links do desenvolvedor~~
 
 #### [secundário]
 - tema escuro por padrão

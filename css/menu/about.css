@@ -7,36 +7,33 @@
 
 #about__title {
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: min(40px, 4vh, 3vw);
 }
 
 #menu__about h3 {
-  font-size: min(1.5rem, 3vh, 6.2vw);
+  font-size: min(1.5rem, 4.5vh, 5.8vw);
   padding: 0 8px;
-  margin-bottom: min(40px, 4vh, 6vw);
+  margin-bottom: min(40px, 4vh, 5vw);
 }
 
 #about__content {
-  font-size: min(1.2rem, 3vh, 6.2vw);
+  font-size: min(1.2rem, 3vh, 5vw);
   padding: 0 8px;
-  margin-bottom: min(40px, 4vh, 6vw);
-}
-
-#about__contact-word {
-  margin-top: min(40px, 4vh, 6vw);
+  margin-bottom: min(40px, 4vh, 4vw);
 }
 
 #about__contact li {
+  font-size: min(1.2rem, 3vh, 5vw);
   list-style: disc inside;
-  margin: 6px 0;
-  padding-left: 24px;
+  padding-left: min(24px, 10vh, 20vw);
+  line-height: min(2rem, 30px, 4vh, 8vw);
 }
 
 #about__contact li a {
   color: currentColor;
   text-decoration: underline;
   transition: 300ms;
-  padding: 8px;
+  padding: min(2px, 0.8vh) min(8px, 2vw);
 }
 
 #about__contact li a:visited {
@@ -44,13 +41,12 @@
 }
 
 #about__contact li a:hover {
-  opacity: 0.8;
+  opacity: 0.7;
 }
 
 #about__footer {
-  font-size: min(1rem, 2.7vh, 5.9vw);
-  padding: 16px 10px;
-  line-height: 1.3rem;
+  font-size: min(1rem, 2.7vh, 5.3vw);
+  padding: min(16px, 2.6vh) 10px;
   width: 100%;
   display: flex;
   flex-flow: row nowrap;
