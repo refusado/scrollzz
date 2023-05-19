@@ -27,6 +27,7 @@
 - tema escuro + novo esqema de cores e paleta
 - logo e identidade
 - novo padrão de peças
+- padornização de espaçamentos, fontes, tamanhos, etc.
 
 #### [ideias]
 - criação de peças automáticas com node.js

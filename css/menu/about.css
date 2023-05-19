@@ -1,4 +1,5 @@
 #menu__about {
+  color: var(--about-secondary-color);
   display: flex;
   flex-flow: column nowrap;
   justify-content: space-between;
@@ -9,22 +10,49 @@
   margin-bottom: 50px;
 }
 
-#about__subtitle, #about__content {
+#menu__about h3 {
+  font-size: min(1.5rem, 3vh, 6.2vw);
+  padding: 0 8px;
+  margin-bottom: min(40px, 4vh, 6vw);
+}
+
+#about__content {
   font-size: min(1.2rem, 3vh, 6.2vw);
   padding: 0 8px;
   margin-bottom: min(40px, 4vh, 6vw);
 }
 
+#about__contact-word {
+  margin-top: min(40px, 4vh, 6vw);
+}
+
+#about__contact li {
+  list-style: disc inside;
+  margin: 6px 0;
+  padding-left: 24px;
+}
+
+#about__contact li a {
+  color: currentColor;
+  text-decoration: underline;
+  transition: 300ms;
+  padding: 8px;
+}
+
+#about__contact li a:visited {
+  color: currentColor;
+}
+
+#about__contact li a:hover {
+  opacity: 0.8;
+}
+
 #about__footer {
-  font-size: min(.9rem, 2.5vh, 5.6vw);
-  padding: 10px;
+  font-size: min(1rem, 2.7vh, 5.9vw);
+  padding: 16px 10px;
   line-height: 1.3rem;
   width: 100%;
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
-}
-
-#about__prj {
-  text-align: end;
 }

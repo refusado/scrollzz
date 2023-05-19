@@ -19,6 +19,13 @@ body {
   background-color: var(--c-light);
 }
 
+hr {
+  border: 1px solid currentColor;
+  width: 80%;
+  opacity: 33%;
+  margin: 0 auto;
+}
+
 #container {
   position: absolute;
   left: 0;

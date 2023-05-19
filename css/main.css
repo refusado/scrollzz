@@ -42,6 +42,10 @@
   animation: fade-content 400ms;
 }
 
+.menu-content__container p {
+  white-space: pre-line;
+}
+
 @keyframes fade-content {
   0% {
     opacity: 0;
