@@ -1,5 +1,5 @@
 :root {
-  --container-width: min(100%, 520px);
+  --content-width: min(100%, 520px);
   --selectors-height: min(30px, 5vh);
 }
 
@@ -12,7 +12,7 @@
 }
 
 .selectors-container {
-  width: var(--container-width);
+  width: var(--content-width);
   height: var(--selectors-height);
   display: flex;
   flex-flow: row nowrap;
@@ -20,7 +20,7 @@
 }
 
 #content {
-  width: var(--container-width);
+  width: var(--content-width);
   height: calc(100% - var(--selectors-height) * 2);
   margin: 0 auto;
   display: flex;
