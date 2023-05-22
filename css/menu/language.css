@@ -28,12 +28,7 @@
   transition: 600ms;
 }
 
-#select__first--en:hover, #select__first--pt:hover {
-  opacity: .95;
-}
-
-#language__pt:checked ~ #container #select-language--first,
-#language__en:checked ~ #container #select-language--first {
+.select-language:checked ~ #container #select-language--first {
   animation: disappear forwards 600ms;
 }
 
@@ -65,13 +60,16 @@
   cursor: pointer;
   user-select: none;
   border-radius: 6px;
-  transition: 100ms;
+  transition: 150ms;
   margin-bottom: min(20px, 2vh, 5vw);
   text-align: center;
 }
 
-.language-selector:hover {
-  opacity: 0.95;
+@media (pointer: fine) {
+  #select-language--first label:hover,
+  .language-selector:hover {
+    opacity: .92;
+  }
 }
 
 #language--en {

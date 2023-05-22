@@ -58,10 +58,21 @@
 }
 
 #about__footer {
-  font-size: min(1rem, 2.7vh, 5.3vw);
-  padding: min(16px, 2.6vh) 10px;
+  font-size: min(.9rem, 2.7vh, 5vw);
+  padding: min(16px, 2.6vh, 3.5vw) min(10px, 2vh, 2vw);
   width: 100%;
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+#about__footer > * {
+  width: 100%;
+}
+
+#about__visitors {
+  height: min(1.2rem, 3.5vh, 5vw);
+  max-width: min(100px, 20vh);
 }
