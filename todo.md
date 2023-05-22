@@ -1,21 +1,15 @@
 # To do
 
-#### [crucial]
 - ~~refazer as peças do nível 1, 3 e 4~~
 - ~~mudar o nível 1 para proporção de blocos 3 por 2~~
 - ~~mudar o nível 3 para proporção de blocos 3 por 4~~
 - ~~revisar e melhorar textos da home~~
 - ~~selecionar idioma ao iniciar jogo~~
-- melhorar SEO
+- ~~melhorar SEO~~
 - revisar suporte entre navegadores
 - ~~adicionar links do desenvolvedor~~
-
-#### [secundário]
+---
 - tema escuro por padrão
-- melhorar estrutura de textos no HTML
-- melhorar espaçamentos verticais da home
-- melhorar posicionamento do gif de exemplo no tutorial
-- melhorar transição do container de blocos
 - colocar links das redes do desenvolvedor em blocos como no puzzle
 - definir cores das peças com CSS, dinamicamente
 - usar CSS sprite para melhorar desempenho
