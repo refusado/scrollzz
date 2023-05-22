@@ -2,12 +2,12 @@
   --lang: "en";
 
   --home: "Home";
-  --home-description: "Use the scroll to find the correct piece in each block and assemble the final image.";
-  --home-bottom: "No level nanny here, you're all grown up and can pick on your own the next level below when you're ready ;)";
+  --home-description: "Scroll to find the correct piece in each block and assemble the final image";
+  --home-bottom: "No level nanny here - you're all grown up and can pick on your own the next level below!";
   
   --about: "About";
   --about-subtitle: "About";
-  --about-content: "This puzzle was designed and developped in 2021, by Refu. The first version was released in 2022 and the second version in 2023. Focusing on simplicity, the gameplay is made only by the scrolling movement, dispensing even the use of clicks.\00a \00a This entire page was developed with pure CSS, from paginations to translations. You can check out the source conde on Github. Also, please consider leaving a star on the repository if you liked this project.";
+  --about-content: "This puzzle was designed and developped in 2021, by Refu. The first version was released in 2022 and the second version in 2023. Focusing on simplicity, the gameplay is made only by the scrolling movement, dispensing even the use of clicks.\00a \00a This entire page was developed with pure CSS, from paginations to translations. You can check out the source conde on Github. Also, consider leaving a star on the repository if you like this project.";
 
   --about-contact: "Contact";
 
@@ -19,60 +19,15 @@
   --lang: "pt";
 
   --home: "Início";
-  --home-description: "Use o scroll para encontrar a peça correta em cada bloco e montar a imagem final.";
-  --home-bottom: "Não tem babá de nível aqui, você já tem idade suficiente para mudar de níveis por conta própria!";
+  --home-description: "Role até encontrar a peça correta em cada bloco e montar a imagem final";
+  --home-bottom: "Sem babá de nível aqui - você já tem idade suficiente para mudar de níveis por conta própria!";
   
   --about: "Sobre";
   --about-subtitle: "Sobre";
-  --about-content: "Este quebra-cabeças foi idealizado e desenvolvido em 2021, por Refu. A primeira versão foi lançada em 2022 e a segunda em 2023. Com foco na simplicidade, a jogabilidade se dá apenas pelo movimento de rolamento, dispensando até mesmo o uso de cliques na tela.\000a \000a Toda a página foi desenvolvieda apenas com CSS, desde a paginação até as traduções. Você pode conferir o código fonte no Github. Por favor, considere também deixar uma estrela no repositório se gostou deste projeto.";
+  --about-content: "Este quebra-cabeças foi idealizado e desenvolvido em 2021, por Refu. A primeira versão foi lançada em 2022 e a segunda em 2023. Com foco na simplicidade, a jogabilidade se dá apenas pelo movimento de rolamento, dispensando até mesmo o uso de cliques na tela.\000a \000a Toda a página foi desenvolvieda apenas com CSS, desde a paginação até as traduções. Você pode conferir o código fonte no Github. Considere também deixar uma estrela no repositório se gostar deste projeto.";
   
   --about-contact: "Contato";
 
   --about-repo: "Repositório: ";
   --about-version: "Versão: ";
-}
-
-/* INSERTING TRANSLATED CONTENT */
-#menu-selection--home::before {
-  content: var(--home);
-}
-
-#menu-selection--lang::before {
-  content: var(--lang);
-}
-
-#menu-selection--about:before {
-  content: var(--about);
-}
-
-#tutorial__description::before {
-  content: var(--home-description);
-}
-
-#tutorial__label::before {
-  content: var(--home-label);
-}
-
-#tutorial__bottom::before {
-  content: var(--home-bottom);
-}
-
-#about__subtitle::before {
-  content: var(--about-subtitle);
-}
-
-#about__content::before {
-  content: var(--about-content);
-}
-
-#about__contact-word::before {
-  content: var(--about-contact);
-}
-
-#about__repo::before {
-  content: var(--about-repo);
-}
-
-#about__version::before {
-  content: var(--about-version);
 }

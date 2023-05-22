@@ -93,3 +93,48 @@
     visibility: hidden;
   }
 }
+
+/* INSERTING TRANSLATED CONTENT */
+#menu-selection--home::before {
+  content: var(--home);
+}
+
+#menu-selection--lang::before {
+  content: var(--lang);
+}
+
+#menu-selection--about:before {
+  content: var(--about);
+}
+
+#tutorial__description::before {
+  content: var(--home-description);
+}
+
+#tutorial__label::before {
+  content: var(--home-label);
+}
+
+#tutorial__bottom::before {
+  content: var(--home-bottom);
+}
+
+#about__subtitle::before {
+  content: var(--about-subtitle);
+}
+
+#about__content::before {
+  content: var(--about-content);
+}
+
+#about__contact-word::before {
+  content: var(--about-contact);
+}
+
+#about__repo::before {
+  content: var(--about-repo);
+}
+
+#about__version::before {
+  content: var(--about-version);
+}
