@@ -22,39 +22,41 @@
   margin-bottom: min(40px, 4vh, 4vw);
 }
 
+#about__contact-word {
+  width: 100%;
+}
+
 #about__contact {
   display: flex;
   flex-flow: row wrap;
   justify-content: stretch;
 }
 
-#about__contact h3 {
-  width: 100%;
+#about__contact li {
+  flex-grow: 1;
+  list-style: none;
+  height: min(30px, 5vh);
+  background-color: var(--about-secondary-color);
+  color: var(--about-primary-color);
+  transition: 300ms;
 }
 
-#about__contact li {
-  display: inline-block;
-  margin: 1px;
-  flex-grow: 1;
-  text-align: center;
-  font-size: min(1.2rem, 3vh, 5vw);
-  list-style: none;
-  line-height: min(2rem, 30px, 4vh, 8vw);
+#about__contact li:hover {
+  color: var(--about-secondary-color);
+  background-color: var(--about-primary-color);
+  flex-grow: 2.15;
 }
 
 #about__contact li a {
   color: currentColor;
-  text-decoration: underline;
+  width: 100%;
+  height: 100%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-size: min(1rem, 3vh, 5vw);
+  text-decoration: unset;
   transition: 300ms;
-  padding: min(5px, 1.4vh) min(16px, 4vw);
-}
-
-#about__contact li a:visited {
-  color: currentColor;
-}
-
-#about__contact li a:hover {
-  opacity: 0.7;
 }
 
 #about__footer {
