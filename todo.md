@@ -9,17 +9,13 @@
 - ~~revisar suporte entre navegadores~~
 - ~~adicionar links do desenvolvedor~~
 ---
-- tema escuro por padrão
+- ~~tema escuro por padrão~~
 - colocar links das redes do desenvolvedor em blocos como no puzzle
 - ~~definir cores das peças com CSS, dinamicamente~~
 - usar CSS sprite para melhorar desempenho
-- redesign
 
 #### [redesign]
 - adicionar fontes personalizadas
-- tema escuro + novo esqema de cores e paleta
-- logo e identidade
-- novo padrão de peças
 - padornização de espaçamentos, fontes, tamanhos, etc.
 
 #### [ideias]
