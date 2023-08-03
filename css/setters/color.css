@@ -1,35 +1,24 @@
 :root {
-  --c-light: #f2f2f4;
-  --c-dark: #171738;
-  --c-bege: #EFBC9B;
-  --c-green: #97d1b5;
-  --c-brown: #9b6e74;
-  --c-red: #dd5c66;
-  --c-purple: #9C89B8;
-  
-  --c-blue: #8ecbf2;
+  --bege-primary: #d9a583b3;
+  --bege-secondary: #d9a58366;
 
-  --home-primary-color: var(--c-light);
-  --home-secondary-color: var(--c-dark);
+  --green-primary: #7ab498b3;
+  --green-secondary: #7ab49866;
 
-  --lang-primary-color: var(--c-dark);
-  --lang-secondary-color: var(--c-light);
-  
-  --about-primary-color: var(--c-light);
-  --about-secondary-color: var(--c-dark);
-  
-  --one-primary-color: var(--c-bege);
-  --one-secondary-color: var(--c-dark);
-  
-  --two-primary-color: var(--c-green);
-  --two-secondary-color: var(--c-dark);
-  
-  --three-primary-color: var(--c-brown);
-  --three-secondary-color: var(--c-dark);
-  
-  --four-primary-color: var(--c-purple);
-  --four-secondary-color: var(--c-dark);
-  
-  --five-primary-color: var(--c-red);
-  --five-secondary-color: var(--c-dark);
+  --brown-primary: #9b6e74b3;
+  --brown-secondary: #9b6e7466;
+
+  --red-primary: #c8515bb3;
+  --red-secondary: #c8515b66;
+
+  --purple-primary: #866daeb3;
+  --purple-secondary: #866dae66;
+
+  --light: #acacbd;
+  --dark: #262639;
+  --grey: #acacbd66;
+
+  --background-color: var(--dark);
+  --text-color: var(--light);
+  --accent-color: #5353a0a1;
 }

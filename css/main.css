@@ -4,6 +4,8 @@
 }
 
 #container {
+  background-color: var(--background-color);
+  color: var(--text-color);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -32,6 +34,21 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+#level-selection__container {
+  font-weight: bold;
+  border-start-start-radius: 6px;
+  border-start-end-radius: 6px;
+  overflow: hidden;
+}
+
+#menu-selection__container {
+  border-end-end-radius: 6px;
+  border-end-start-radius: 6px;
+  overflow: hidden;
+  border: 1px solid var(--grey);
+  border-top: 0;
 }
 
 #content {

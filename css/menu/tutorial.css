@@ -14,7 +14,7 @@
 
 @-webkit-keyframes highlight {
   0%, 100% {
-    background-color: var(--c-blue);
+    background-color: var(--accent-color);
   }
   55% {
     background-color: transparent;
@@ -23,7 +23,7 @@
 
 @keyframes highlight {
   0%, 100% {
-    background-color: var(--c-blue);
+    background-color: var(--accent-color);
   }
   55% {
     background-color: transparent;

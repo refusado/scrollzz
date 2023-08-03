@@ -1,5 +1,4 @@
 #menu__about {
-  color: var(--about-secondary-color);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -34,6 +33,7 @@
 }
 
 #about__contact {
+  background-color: var(--accent-color);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -47,21 +47,18 @@
 }
 
 #about__contact li {
+  background-color: var(--accent-color);
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
   list-style: none;
   height: min(30px, 5vh);
-  background-color: var(--about-secondary-color);
-  color: var(--about-primary-color);
   -webkit-transition: 300ms;
   -o-transition: 300ms;
   transition: 300ms;
 }
 
 #about__contact li:hover {
-  color: var(--about-secondary-color);
-  background-color: var(--about-primary-color);
   -webkit-box-flex: 2.15;
       -ms-flex-positive: 2.15;
           flex-grow: 2.15;

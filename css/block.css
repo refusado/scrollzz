@@ -1,7 +1,8 @@
+/* DEFAULT BLOCK STYLES */
 #content {
   --block-size: 140px;
-  --outline-color: var(--c-dark);
-  --shape-color: var(--outline-color);
+  --outline-color: var(--white);
+  --shape-color: var(--grey);
 }
 
 .block-container {
@@ -14,38 +15,56 @@
           flex-flow: row wrap;
 }
 
+/* SPECIFIC BLOCK STYLES */
 #level--home__block-container {
   --block-columns: 2;
   --block-rows: 2;
   --block-size: 160px;
-  --outline-color: var(--home-secondary-color);
+  
+  --outline-color: var(--light);
+  --shape-color: var(--grey);
 }
 
 #level--one__block-container {
   --block-columns: 4;
   --block-rows: 2;
+  
+  --outline-color: var(--bege-primary);
+  --shape-color: var(--bege-secondary);
 }
 
 #level--two__block-container {
   --block-columns: 3;
   --block-rows: 3;
+  
+  --outline-color: var(--green-primary);
+  --shape-color: var(--green-secondary);
 }
 
 #level--three__block-container {
   --block-columns: 3;
   --block-rows: 4;
+  
+  --outline-color: var(--brown-primary);
+  --shape-color: var(--brown-secondary);
 }
 
 #level--four__block-container {
   --block-columns: 4;
   --block-rows: 4;
   --block-size: 120px;
+  
+  --outline-color: var(--red-primary);
+  --shape-color: var(--red-secondary);
 }
 
 #level--five__block-container {
   --block-columns: 4;
   --block-rows: 5;
   --block-size: 120px;
+  
+  --outline-color: var(--purple-primary);
+  --shape-color: var(--purple-secondary);
 }
 
 .block-container {

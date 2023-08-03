@@ -17,54 +17,40 @@
   --state-content__menu: flex;
 }
 
-#menu__container {
-  display: var(--state-content__menu);
-}
-
 #content__home:checked ~ #container {
   --state-content__home: flex;
-  --container-bg-color: var(--home-primary-color);
 }
 
 #content__lang:checked ~ #container {
   --state-content__lang: flex;
-  /* LINEAR GRADIENT TO AVOID TRANSITIONS */
-  --container-bg-color: linear-gradient(var(--lang-primary-color), var(--lang-primary-color));
 }
 
 #content__about:checked ~ #container {
   --state-content__about: flex;
-  --container-bg-color: var(--about-primary-color);
 }
 
 #content__one:checked ~ #container {
   --state-content__one: flex;
-  --container-bg-color: var(--one-primary-color);
 }
 
 #content__two:checked ~ #container {
   --state-content__two: flex;
-  --container-bg-color: var(--two-primary-color);
 }
 
 #content__three:checked ~ #container {
   --state-content__three: flex;
-  --container-bg-color: var(--three-primary-color);
 }
 
 #content__four:checked ~ #container {
   --state-content__four: flex;
-  --container-bg-color: var(--four-primary-color);
 }
 
 #content__five:checked ~ #container {
   --state-content__five: flex;
-  --container-bg-color: var(--five-primary-color);
 }
 
-#container {
-  background: var(--container-bg-color);
-  color: var(--home-secondary-color);
+#menu__container {
+  display: var(--state-content__menu);
 }
 
 #menu__home {
