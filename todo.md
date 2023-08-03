@@ -11,7 +11,7 @@
 ---
 - tema escuro por padrão
 - colocar links das redes do desenvolvedor em blocos como no puzzle
-- definir cores das peças com CSS, dinamicamente
+- ~~definir cores das peças com CSS, dinamicamente~~
 - usar CSS sprite para melhorar desempenho
 - redesign
 

@@ -11,7 +11,7 @@
 #b16 .tile:nth-child(5),
 #b17 .tile:nth-child(8),
 #b18 .tile:nth-child(1) {
-  background-image: var(--hexagon-1);
+  mask-image: var(--hexagon-1);
 }
 
 #b11 .tile:nth-child(8),
@@ -22,7 +22,7 @@
 #b16 .tile:nth-child(2),
 #b17 .tile:nth-child(5),
 #b18 .tile:nth-child(6) {
-  background-image: var(--hexagon-2);
+  mask-image: var(--hexagon-2);
 }
 
 #b11 .tile:nth-child(3),
@@ -33,7 +33,7 @@
 #b16 .tile:nth-child(6),
 #b17 .tile:nth-child(4),
 #b18 .tile:nth-child(5) {
-  background-image: var(--hexagon-3);
+  mask-image: var(--hexagon-3);
 }
 
 #b11 .tile:nth-child(6),
@@ -44,7 +44,7 @@
 #b16 .tile:nth-child(1),
 #b17 .tile:nth-child(2),
 #b18 .tile:nth-child(4) {
-  background-image: var(--hexagon-4);
+  mask-image: var(--hexagon-4);
 }
 
 #b11 .tile:nth-child(4),
@@ -55,7 +55,7 @@
 #b16 .tile:nth-child(3),
 #b17 .tile:nth-child(7),
 #b18 .tile:nth-child(7) {
-  background-image: var(--hexagon-5);
+  mask-image: var(--hexagon-5);
 }
 
 #b11 .tile:nth-child(1),
@@ -66,7 +66,7 @@
 #b16 .tile:nth-child(7),
 #b17 .tile:nth-child(3),
 #b18 .tile:nth-child(2) {
-  background-image: var(--hexagon-6);
+  mask-image: var(--hexagon-6);
 }
 
 #b11 .tile:nth-child(5),
@@ -77,7 +77,7 @@
 #b16 .tile:nth-child(8),
 #b17 .tile:nth-child(6),
 #b18 .tile:nth-child(3) {
-  background-image: var(--hexagon-7);
+  mask-image: var(--hexagon-7);
 }
 
 #b11 .tile:nth-child(2),
@@ -88,6 +88,6 @@
 #b16 .tile:nth-child(4),
 #b17 .tile:nth-child(1),
 #b18 .tile:nth-child(8) {
-  background-image: var(--hexagon-8);
+  mask-image: var(--hexagon-8);
 }
 
