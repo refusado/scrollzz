@@ -12,7 +12,8 @@
 #b27 .tile:nth-child(7),
 #b28 .tile:nth-child(8),
 #b29 .tile:nth-child(1) {
-  mask-image: var(--octagon-1);
+  -webkit-mask-image: var(--octagon-1);
+          mask-image: var(--octagon-1);
 }
 
 #b21 .tile:nth-child(7),
@@ -24,7 +25,8 @@
 #b27 .tile:nth-child(1),
 #b28 .tile:nth-child(7),
 #b29 .tile:nth-child(5) {
-  mask-image: var(--octagon-2);
+  -webkit-mask-image: var(--octagon-2);
+          mask-image: var(--octagon-2);
 }
 
 #b21 .tile:nth-child(1),
@@ -36,7 +38,8 @@
 #b27 .tile:nth-child(4),
 #b28 .tile:nth-child(4),
 #b29 .tile:nth-child(7) {
-  mask-image: var(--octagon-3);
+  -webkit-mask-image: var(--octagon-3);
+          mask-image: var(--octagon-3);
 }
 
 #b21 .tile:nth-child(3),
@@ -48,7 +51,8 @@
 #b27 .tile:nth-child(5),
 #b28 .tile:nth-child(3),
 #b29 .tile:nth-child(3) {
-  mask-image: var(--octagon-4);
+  -webkit-mask-image: var(--octagon-4);
+          mask-image: var(--octagon-4);
 }
 
 #b21 .tile:nth-child(5),
@@ -60,7 +64,8 @@
 #b27 .tile:nth-child(2),
 #b28 .tile:nth-child(2),
 #b29 .tile:nth-child(6) {
-  mask-image: var(--octagon-5);
+  -webkit-mask-image: var(--octagon-5);
+          mask-image: var(--octagon-5);
 }
 
 #b21 .tile:nth-child(6),
@@ -72,7 +77,8 @@
 #b27 .tile:nth-child(6),
 #b28 .tile:nth-child(9),
 #b29 .tile:nth-child(2) {
-  mask-image: var(--octagon-6);
+  -webkit-mask-image: var(--octagon-6);
+          mask-image: var(--octagon-6);
 }
 
 #b21 .tile:nth-child(2),
@@ -84,7 +90,8 @@
 #b27 .tile:nth-child(3),
 #b28 .tile:nth-child(1),
 #b29 .tile:nth-child(8) {
-  mask-image: var(--octagon-7);
+  -webkit-mask-image: var(--octagon-7);
+          mask-image: var(--octagon-7);
 }
 
 #b21 .tile:nth-child(4),
@@ -96,7 +103,8 @@
 #b27 .tile:nth-child(8),
 #b28 .tile:nth-child(6),
 #b29 .tile:nth-child(9) {
-  mask-image: var(--octagon-8);
+  -webkit-mask-image: var(--octagon-8);
+          mask-image: var(--octagon-8);
 }
 
 #b21 .tile:nth-child(8),
@@ -108,6 +116,6 @@
 #b27 .tile:nth-child(9),
 #b28 .tile:nth-child(5),
 #b29 .tile:nth-child(4) {
-  mask-image: var(--octagon-9);
+  -webkit-mask-image: var(--octagon-9);
+          mask-image: var(--octagon-9);
 }
-

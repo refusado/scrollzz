@@ -7,27 +7,30 @@
 #b02 .tile:nth-child(4),
 #b03 .tile:nth-child(1),
 #b04 .tile:nth-child(3) {
-  mask-image: var(--star-1);
+  -webkit-mask-image: var(--star-1);
+          mask-image: var(--star-1);
 }
 
 #b01 .tile:nth-child(1),
 #b02 .tile:nth-child(3),
 #b03 .tile:nth-child(4),
 #b04 .tile:nth-child(2) {
-  mask-image: var(--star-2);
+  -webkit-mask-image: var(--star-2);
+          mask-image: var(--star-2);
 }
 
 #b01 .tile:nth-child(3),
 #b02 .tile:nth-child(2),
 #b03 .tile:nth-child(3),
 #b04 .tile:nth-child(1) {
-  mask-image: var(--star-3);
+  -webkit-mask-image: var(--star-3);
+          mask-image: var(--star-3);
 }
 
 #b01 .tile:nth-child(2),
 #b02 .tile:nth-child(1),
 #b03 .tile:nth-child(2),
 #b04 .tile:nth-child(4) {
-  mask-image: var(--star-4);
+  -webkit-mask-image: var(--star-4);
+          mask-image: var(--star-4);
 }
-

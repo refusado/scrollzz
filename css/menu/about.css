@@ -59,7 +59,8 @@
 }
 
 #about__contact li:hover {
-  filter: brightness(1.15);
+  -webkit-filter: brightness(1.15);
+          filter: brightness(1.15);
   -webkit-box-flex: 2.15;
       -ms-flex-positive: 2.15;
           flex-grow: 2.15;
@@ -112,12 +113,16 @@
 #about__footer a {
   color: var(--accent-color);
   font-weight: bold;
-  filter: brightness(2);
+  -webkit-filter: brightness(2);
+          filter: brightness(2);
+  -webkit-transition: 300ms;
+  -o-transition: 300ms;
   transition: 300ms;
 }
 
 #about__footer a:hover {
-  filter: brightness(1.7);
+  -webkit-filter: brightness(1.7);
+          filter: brightness(1.7);
 }
 
 #about__visitors {

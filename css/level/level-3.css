@@ -15,7 +15,8 @@
 #b310 .tile:nth-child(10),
 #b311 .tile:nth-child(12),
 #b312 .tile:nth-child(6) {
-  mask-image: var(--cube-1);
+  -webkit-mask-image: var(--cube-1);
+          mask-image: var(--cube-1);
 }
 
 #b31 .tile:nth-child(6),
@@ -30,7 +31,8 @@
 #b310 .tile:nth-child(1),
 #b311 .tile:nth-child(3),
 #b312 .tile:nth-child(5) {
-  mask-image: var(--cube-2);
+  -webkit-mask-image: var(--cube-2);
+          mask-image: var(--cube-2);
 }
 
 #b31 .tile:nth-child(10),
@@ -45,7 +47,8 @@
 #b310 .tile:nth-child(2),
 #b311 .tile:nth-child(10),
 #b312 .tile:nth-child(2) {
-  mask-image: var(--cube-3);
+  -webkit-mask-image: var(--cube-3);
+          mask-image: var(--cube-3);
 }
 
 #b31 .tile:nth-child(5),
@@ -60,7 +63,8 @@
 #b310 .tile:nth-child(8),
 #b311 .tile:nth-child(8),
 #b312 .tile:nth-child(9) {
-  mask-image: var(--cube-4);
+  -webkit-mask-image: var(--cube-4);
+          mask-image: var(--cube-4);
 }
 
 #b31 .tile:nth-child(9),
@@ -75,7 +79,8 @@
 #b310 .tile:nth-child(11),
 #b311 .tile:nth-child(6),
 #b312 .tile:nth-child(4) {
-  mask-image: var(--cube-5);
+  -webkit-mask-image: var(--cube-5);
+          mask-image: var(--cube-5);
 }
 
 #b31 .tile:nth-child(1),
@@ -90,7 +95,8 @@
 #b310 .tile:nth-child(5),
 #b311 .tile:nth-child(9),
 #b312 .tile:nth-child(3) {
-  mask-image: var(--cube-6);
+  -webkit-mask-image: var(--cube-6);
+          mask-image: var(--cube-6);
 }
 
 #b31 .tile:nth-child(4),
@@ -105,7 +111,8 @@
 #b310 .tile:nth-child(9),
 #b311 .tile:nth-child(2),
 #b312 .tile:nth-child(11) {
-  mask-image: var(--cube-7);
+  -webkit-mask-image: var(--cube-7);
+          mask-image: var(--cube-7);
 }
 
 #b31 .tile:nth-child(8),
@@ -120,7 +127,8 @@
 #b310 .tile:nth-child(6),
 #b311 .tile:nth-child(11),
 #b312 .tile:nth-child(1) {
-  mask-image: var(--cube-8);
+  -webkit-mask-image: var(--cube-8);
+          mask-image: var(--cube-8);
 }
 
 #b31 .tile:nth-child(12),
@@ -135,7 +143,8 @@
 #b310 .tile:nth-child(3),
 #b311 .tile:nth-child(5),
 #b312 .tile:nth-child(7) {
-  mask-image: var(--cube-9);
+  -webkit-mask-image: var(--cube-9);
+          mask-image: var(--cube-9);
 }
 
 #b31 .tile:nth-child(2),
@@ -150,7 +159,8 @@
 #b310 .tile:nth-child(4),
 #b311 .tile:nth-child(1),
 #b312 .tile:nth-child(12) {
-  mask-image: var(--cube-10);
+  -webkit-mask-image: var(--cube-10);
+          mask-image: var(--cube-10);
 }
 
 #b31 .tile:nth-child(11),
@@ -165,7 +175,8 @@
 #b310 .tile:nth-child(12),
 #b311 .tile:nth-child(7),
 #b312 .tile:nth-child(10) {
-  mask-image: var(--cube-11);
+  -webkit-mask-image: var(--cube-11);
+          mask-image: var(--cube-11);
 }
 
 #b31 .tile:nth-child(7),
@@ -180,6 +191,6 @@
 #b310 .tile:nth-child(7),
 #b311 .tile:nth-child(4),
 #b312 .tile:nth-child(8) {
-  mask-image: var(--cube-12);
+  -webkit-mask-image: var(--cube-12);
+          mask-image: var(--cube-12);
 }
-

@@ -13,6 +13,8 @@
       -ms-flex-align: center;
           align-items: center;
   cursor: pointer;
+  -webkit-transition: 300ms;
+  -o-transition: 300ms;
   transition: 300ms;
   -webkit-user-select: none;
      -moz-user-select: none;
@@ -21,7 +23,8 @@
 }
 
 .content-selector:hover {
-  filter: brightness(1.15);
+  -webkit-filter: brightness(1.15);
+          filter: brightness(1.15);
 }
 
 .selection {

@@ -93,7 +93,8 @@
 @media (pointer: fine) {
   #select-language--first label:hover,
   .language-selector:hover {
-    filter: brightness(1.15);
+    -webkit-filter: brightness(1.15);
+            filter: brightness(1.15);
   }
 }
 

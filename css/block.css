@@ -136,7 +136,8 @@
   height: 100%;
   background-color: var(--shape-color);
   scroll-snap-align: start;
-  mask-size: cover;
+  -webkit-mask-size: cover;
+          mask-size: cover;
 }
 
 @-webkit-keyframes container-flip {
