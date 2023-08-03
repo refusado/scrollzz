@@ -8,9 +8,17 @@
 
 #select-language--first {
   position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-flow: column nowrap;
-  user-select: none;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
   width: var(--content-width);
   height: 100vh;
   background-color: var(--home-secondary-color);
@@ -18,18 +26,29 @@
 }
 
 #select__first--en, #select__first--pt {
-  flex-grow: 1;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
   background-color: var(--home-primary-color);
   color: var(--home-secondary-color);
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   cursor: pointer;
+  -webkit-transition: 600ms;
+  -o-transition: 600ms;
   transition: 600ms;
 }
 
 .select-language:checked ~ #container #select-language--first {
-  animation: disappear forwards 600ms;
+  -webkit-animation: disappear forwards 600ms;
+          animation: disappear forwards 600ms;
 }
 
 #lang__title {
@@ -48,9 +67,16 @@
 
 #language {
   height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-flow: column nowrap;
-  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .language-selector {
@@ -58,8 +84,13 @@
   padding: 8px 14px;
   border: 1px solid;
   cursor: pointer;
-  user-select: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
   border-radius: 6px;
+  -webkit-transition: 150ms;
+  -o-transition: 150ms;
   transition: 150ms;
   margin-bottom: min(20px, 2vh, 5vw);
   text-align: center;
@@ -80,6 +111,18 @@
 #language--pt {
   background-color: var(--btn-pt-primary-color);
   color: var(--btn-pt-secondary-color);
+}
+
+@-webkit-keyframes disappear {
+  0% {
+    opacity: 1;
+  }
+  99% {
+    opacity: 0;
+  }
+  100% {
+    visibility: hidden;
+  }
 }
 
 @keyframes disappear {

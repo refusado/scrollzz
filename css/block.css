@@ -4,8 +4,13 @@
 }
 
 .block-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-flow: row wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
 }
 
 #level--home__block-container {
@@ -56,6 +61,8 @@
 }
 
 #level--five__block-container:hover .block {
+  -webkit-transition: 100ms;
+  -o-transition: 100ms;
   transition: 100ms;
   opacity: 0;
 }
@@ -75,12 +82,14 @@
   border-radius: 6px;
   overflow: hidden;
   outline: 1px solid var(--outline-color);
-  animation: container-flip 900ms;
+  -webkit-animation: container-flip 900ms;
+          animation: container-flip 900ms;
 }
 
 @media (pointer: coarse) {
   .block-container {
-    animation: none;
+    -webkit-animation: none;
+            animation: none;
   }
 }
 
@@ -89,8 +98,11 @@
   scrollbar-width: none;
   scroll-behavior: smooth;
   overflow: scroll;
-  scroll-snap-type: y mandatory;
+  -ms-scroll-snap-type: y mandatory;
+      scroll-snap-type: y mandatory;
   outline: 1px solid var(--outline-color);
+  -webkit-transition: 800ms;
+  -o-transition: 800ms;
   transition: 800ms;
 }
 
@@ -107,30 +119,88 @@
   background-size: cover;
 }
 
-@keyframes container-flip {
+@-webkit-keyframes container-flip {
   0% {
-    animation-timing-function: ease-in;
-    transform:
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+    -webkit-transform:
+      perspective(1000px)
+      rotate3d(1, 0, 0, calc(110deg / (var(--block-rows) * 1.2)));
+            transform:
       perspective(1000px)
       rotate3d(1, 0, 0, calc(110deg / (var(--block-rows) * 1.2)));
   }
   40% {
-    animation-timing-function: ease-in;
-    transform:
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+    -webkit-transform:
+      perspective(1000px)
+      rotate3d(1, 0, 0, calc(-16deg / (var(--block-rows) * 1.2)));
+            transform:
       perspective(1000px)
       rotate3d(1, 0, 0, calc(-16deg / (var(--block-rows) * 1.2)));
   }
   60% {
-    transform:
+    -webkit-transform:
+      perspective(1000px)
+      rotate3d(1, 0, 0, calc(6deg / (var(--block-rows) * 1.2)));
+            transform:
       perspective(1000px)
       rotate3d(1, 0, 0, calc(6deg / (var(--block-rows) * 1.2)));
   }
   80% {
-    transform:
+    -webkit-transform:
+      perspective(1000px)
+      rotate3d(1, 0, 0, calc(-4deg / (var(--block-rows) * 1.2)));
+            transform:
       perspective(1000px)
       rotate3d(1, 0, 0, calc(-4deg / (var(--block-rows) * 1.2)));
   }
   100% {
-    transform: perspective(1000px);
+    -webkit-transform: perspective(1000px);
+            transform: perspective(1000px);
+  }
+}
+
+@keyframes container-flip {
+  0% {
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+    -webkit-transform:
+      perspective(1000px)
+      rotate3d(1, 0, 0, calc(110deg / (var(--block-rows) * 1.2)));
+            transform:
+      perspective(1000px)
+      rotate3d(1, 0, 0, calc(110deg / (var(--block-rows) * 1.2)));
+  }
+  40% {
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+    -webkit-transform:
+      perspective(1000px)
+      rotate3d(1, 0, 0, calc(-16deg / (var(--block-rows) * 1.2)));
+            transform:
+      perspective(1000px)
+      rotate3d(1, 0, 0, calc(-16deg / (var(--block-rows) * 1.2)));
+  }
+  60% {
+    -webkit-transform:
+      perspective(1000px)
+      rotate3d(1, 0, 0, calc(6deg / (var(--block-rows) * 1.2)));
+            transform:
+      perspective(1000px)
+      rotate3d(1, 0, 0, calc(6deg / (var(--block-rows) * 1.2)));
+  }
+  80% {
+    -webkit-transform:
+      perspective(1000px)
+      rotate3d(1, 0, 0, calc(-4deg / (var(--block-rows) * 1.2)));
+            transform:
+      perspective(1000px)
+      rotate3d(1, 0, 0, calc(-4deg / (var(--block-rows) * 1.2)));
+  }
+  100% {
+    -webkit-transform: perspective(1000px);
+            transform: perspective(1000px);
   }
 }

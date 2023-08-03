@@ -4,9 +4,17 @@
 }
 
 #container {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: 600ms;
+  -o-transition: 600ms;
   transition: 600ms;
   overflow: hidden;
 }
@@ -14,19 +22,35 @@
 .selectors-container {
   width: var(--content-width);
   height: var(--selectors-height);
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-flow: row nowrap;
-  justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 #content {
   width: var(--content-width);
   height: calc(100% - var(--selectors-height) * 2);
   margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-flow: column nowrap;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 #menu__container, .menu-content__container {
@@ -35,15 +59,34 @@
 }
 
 .menu-content__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-flow: column nowrap;
-  justify-content: flex-start;
-  align-items: center;
-  animation: fade-content 400ms;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-animation: fade-content 400ms;
+          animation: fade-content 400ms;
 }
 
 .menu-content__container p {
   white-space: pre-line;
+}
+
+@-webkit-keyframes fade-content {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 @keyframes fade-content {
@@ -58,10 +101,13 @@
 /* DISABLE UNECESSARY TRANSITION AND ANIMATION FOR MOBILE CLIENTS */
 @media (pointer: coarse)  {
   #container {
+    -webkit-transition: none;
+    -o-transition: none;
     transition: none;
   }
 
   .menu-content__container {
-    animation: none;
+    -webkit-animation: none;
+            animation: none;
   }
 }

@@ -6,7 +6,7 @@
 - ~~revisar e melhorar textos da home~~
 - ~~selecionar idioma ao iniciar jogo~~
 - ~~melhorar SEO~~
-- revisar suporte entre navegadores
+- ~~revisar suporte entre navegadores~~
 - ~~adicionar links do desenvolvedor~~
 ---
 - tema escuro por padrão

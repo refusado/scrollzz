@@ -1,12 +1,23 @@
 #b01:hover .tile:nth-child(4),
 #b02:hover .tile:nth-child(3) {
-  animation: highlight 1200ms infinite;
+  -webkit-animation: highlight 1200ms infinite;
+          animation: highlight 1200ms infinite;
 }
 
 @media (pointer: coarse)  {
   #b01:hover .tile:nth-child(4),
   #b02:hover .tile:nth-child(3) {
-    animation: unset;
+    -webkit-animation: unset;
+            animation: unset;
+  }
+}
+
+@-webkit-keyframes highlight {
+  0%, 100% {
+    background-color: var(--c-blue);
+  }
+  55% {
+    background-color: transparent;
   }
 }
 
@@ -28,16 +39,24 @@
 }
 
 #scroll-icon {
+  background-image: -o-radial-gradient(var(--c-dark) 35%, var(--c-light) 40%);
   background-image: radial-gradient(var(--c-dark) 35%, var(--c-light) 40%);
   width: min(35px, 13vw, 6vh);
   height: min(35px, 13vw, 6vh);
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
   display: inline-flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   border-radius: 1px;
   outline: 1px solid var(--c-dark);
   margin-left: min(2ex, 20vw);
-  box-shadow: 0 10px 80px -8px #000000EE, 0 2px 3px -2px #000000EE;
+  -webkit-box-shadow: 0 10px 80px -8px #000000EE, 0 2px 3px -2px #000000EE;
+          box-shadow: 0 10px 80px -8px #000000EE, 0 2px 3px -2px #000000EE;
 }
 
 #scroll-icon::after {
@@ -47,19 +66,38 @@
   height: 30%;
   border-radius: 100px;
   background-color: var(--c-blue);
-  animation: scroll 1200ms infinite ease;
+  -webkit-animation: scroll 1200ms infinite ease;
+          animation: scroll 1200ms infinite ease;
 }
 
-@keyframes scroll {
+@-webkit-keyframes scroll {
   0% {
-    transform: translatey(85%);
+    -webkit-transform: translatey(85%);
+            transform: translatey(85%);
     opacity: 1;
   }
   40% {
     opacity: 1;
   }
   100% {
-    transform: translatey(-85%);
+    -webkit-transform: translatey(-85%);
+            transform: translatey(-85%);
+    opacity: 0;
+  }
+}
+
+@keyframes scroll {
+  0% {
+    -webkit-transform: translatey(85%);
+            transform: translatey(85%);
+    opacity: 1;
+  }
+  40% {
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: translatey(-85%);
+            transform: translatey(-85%);
     opacity: 0;
   }
 }

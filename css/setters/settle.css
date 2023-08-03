@@ -3,7 +3,8 @@
   padding: 0;
   border: 0;
   font-size: 100%;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   font: inherit;
   font-family: sans-serif;
   list-style: none;
@@ -15,7 +16,8 @@ nav {
 
 body {
   line-height: 1;
-  overscroll-behavior: contain;
+  -ms-scroll-chaining: none;
+      overscroll-behavior: contain;
   background-color: var(--c-light);
 }
 
