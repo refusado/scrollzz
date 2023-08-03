@@ -1,4 +1,5 @@
 .content-selector {
+  background-color: var(--dark);
   color: var(--text-color);
   width: 100%;
   height: 100%;
@@ -12,10 +13,15 @@
       -ms-flex-align: center;
           align-items: center;
   cursor: pointer;
+  transition: 300ms;
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
+}
+
+.content-selector:hover {
+  filter: brightness(1.15);
 }
 
 .selection {

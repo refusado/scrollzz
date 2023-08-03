@@ -93,7 +93,7 @@
 @media (pointer: fine) {
   #select-language--first label:hover,
   .language-selector:hover {
-    opacity: .92;
+    filter: brightness(1.15);
   }
 }
 

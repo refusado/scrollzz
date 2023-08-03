@@ -53,12 +53,13 @@
           flex-grow: 1;
   list-style: none;
   height: min(30px, 5vh);
-  -webkit-transition: 300ms;
-  -o-transition: 300ms;
-  transition: 300ms;
+  -webkit-transition: 400ms;
+  -o-transition: 400ms;
+  transition: 400ms;
 }
 
 #about__contact li:hover {
+  filter: brightness(1.15);
   -webkit-box-flex: 2.15;
       -ms-flex-positive: 2.15;
           flex-grow: 2.15;
@@ -106,6 +107,17 @@
 
 #about__footer > * {
   width: 100%;
+}
+
+#about__footer a {
+  color: var(--accent-color);
+  font-weight: bold;
+  filter: brightness(2);
+  transition: 300ms;
+}
+
+#about__footer a:hover {
+  filter: brightness(1.7);
 }
 
 #about__visitors {
